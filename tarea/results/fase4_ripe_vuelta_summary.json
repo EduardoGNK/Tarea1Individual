@@ -1,0 +1,1690 @@
+{
+  "valparaiso": {
+    "udp": {
+      "msm_ida": 229621225,
+      "msm_vuelta": 229638773,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "138.204.230.193"
+          ],
+          "primary_ip": "138.204.230.193",
+          "asn": "AS61506",
+          "holder": "AS61506 - INSACOM SpA",
+          "prefix": "138.204.230.0/24",
+          "rtts": [
+            0.63,
+            0.25,
+            0.2
+          ]
+        },
+        "2": {
+          "ips": [
+            "138.204.228.164"
+          ],
+          "primary_ip": "138.204.228.164",
+          "asn": "AS61506",
+          "holder": "AS61506 - INSACOM SpA",
+          "prefix": "138.204.228.0/24",
+          "rtts": [
+            0.37,
+            0.27,
+            0.16
+          ]
+        },
+        "3": {
+          "ips": [
+            "10.100.163.1"
+          ],
+          "primary_ip": "10.100.163.1",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            0.32,
+            0.33,
+            0.21
+          ]
+        },
+        "4": {
+          "ips": [
+            "10.100.154.2"
+          ],
+          "primary_ip": "10.100.154.2",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            3.15,
+            3.3,
+            3.13
+          ]
+        },
+        "5": {
+          "ips": [
+            "45.68.17.13"
+          ],
+          "primary_ip": "45.68.17.13",
+          "asn": "IXP / Peering",
+          "holder": "Prefijo de Intercambio / Peering",
+          "prefix": "—",
+          "rtts": [
+            3.72,
+            3.68,
+            3.75
+          ]
+        },
+        "6": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "7": {
+          "ips": [
+            "138.204.230.193",
+            "138.204.228.163"
+          ],
+          "primary_ip": "138.204.230.193",
+          "asn": "AS61506",
+          "holder": "AS61506 - INSACOM SpA",
+          "prefix": "138.204.230.0/24",
+          "rtts": []
+        },
+        "8": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "9": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "10": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "10.100.154.2",
+        "10.100.163.1",
+        "138.204.228.163",
+        "138.204.228.164",
+        "138.204.230.193",
+        "45.68.17.13"
+      ],
+      "vuelta_unique_count": 6,
+      "ida_ripe_unique_ips": [
+        "172.17.0.1"
+      ],
+      "ida_ripe_unique_count": 1,
+      "ida_scamper_unique_ips": [
+        "10.253.197.25",
+        "10.253.198.77",
+        "10.253.198.78",
+        "100.80.96.1",
+        "138.204.228.162",
+        "138.204.228.164",
+        "138.204.230.242",
+        "172.21.128.1",
+        "192.168.100.1",
+        "45.68.16.129"
+      ]
+    },
+    "icmp": {
+      "msm_ida": 229621764,
+      "msm_vuelta": 229638791,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "138.204.230.193"
+          ],
+          "primary_ip": "138.204.230.193",
+          "asn": "AS61506",
+          "holder": "AS61506 - INSACOM SpA",
+          "prefix": "138.204.230.0/24",
+          "rtts": [
+            0.19,
+            0.21,
+            0.24
+          ]
+        },
+        "2": {
+          "ips": [
+            "138.204.228.164"
+          ],
+          "primary_ip": "138.204.228.164",
+          "asn": "AS61506",
+          "holder": "AS61506 - INSACOM SpA",
+          "prefix": "138.204.228.0/24",
+          "rtts": [
+            0.22,
+            0.22,
+            0.17
+          ]
+        },
+        "3": {
+          "ips": [
+            "10.100.163.1"
+          ],
+          "primary_ip": "10.100.163.1",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            0.3,
+            0.31,
+            0.35
+          ]
+        },
+        "4": {
+          "ips": [
+            "10.100.154.2"
+          ],
+          "primary_ip": "10.100.154.2",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            3.32,
+            3.16,
+            3.24
+          ]
+        },
+        "5": {
+          "ips": [
+            "45.68.17.13"
+          ],
+          "primary_ip": "45.68.17.13",
+          "asn": "IXP / Peering",
+          "holder": "Prefijo de Intercambio / Peering",
+          "prefix": "—",
+          "rtts": [
+            3.74,
+            3.67,
+            3.67
+          ]
+        },
+        "6": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "7": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "8": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "9": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "10": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "10.100.154.2",
+        "10.100.163.1",
+        "138.204.228.164",
+        "138.204.230.193",
+        "45.68.17.13"
+      ],
+      "vuelta_unique_count": 5,
+      "ida_ripe_unique_ips": [
+        "138.204.230.242",
+        "172.17.0.1"
+      ],
+      "ida_ripe_unique_count": 2,
+      "ida_scamper_unique_ips": [
+        "10.100.154.1",
+        "10.253.197.25",
+        "10.253.198.77",
+        "10.253.198.78",
+        "100.80.96.1",
+        "138.204.228.162",
+        "138.204.228.164",
+        "138.204.230.242",
+        "172.21.128.1",
+        "192.168.100.1",
+        "45.68.16.129"
+      ]
+    },
+    "tcp": {
+      "msm_ida": 229622098,
+      "msm_vuelta": 229638809,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "138.204.230.193"
+          ],
+          "primary_ip": "138.204.230.193",
+          "asn": "AS61506",
+          "holder": "AS61506 - INSACOM SpA",
+          "prefix": "138.204.230.0/24",
+          "rtts": [
+            0.22,
+            0.22,
+            0.32
+          ]
+        },
+        "2": {
+          "ips": [
+            "138.204.228.164"
+          ],
+          "primary_ip": "138.204.228.164",
+          "asn": "AS61506",
+          "holder": "AS61506 - INSACOM SpA",
+          "prefix": "138.204.228.0/24",
+          "rtts": [
+            0.28,
+            0.29,
+            0.22
+          ]
+        },
+        "3": {
+          "ips": [
+            "10.100.163.1"
+          ],
+          "primary_ip": "10.100.163.1",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            0.29,
+            0.32,
+            0.42
+          ]
+        },
+        "4": {
+          "ips": [
+            "10.100.154.2"
+          ],
+          "primary_ip": "10.100.154.2",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            3.27,
+            3.25,
+            3.28
+          ]
+        },
+        "5": {
+          "ips": [
+            "45.68.17.13"
+          ],
+          "primary_ip": "45.68.17.13",
+          "asn": "IXP / Peering",
+          "holder": "Prefijo de Intercambio / Peering",
+          "prefix": "—",
+          "rtts": [
+            3.78,
+            3.8,
+            3.98
+          ]
+        },
+        "6": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "7": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "8": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "9": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "10": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "10.100.154.2",
+        "10.100.163.1",
+        "138.204.228.164",
+        "138.204.230.193",
+        "45.68.17.13"
+      ],
+      "vuelta_unique_count": 5,
+      "ida_ripe_unique_ips": [
+        "138.204.230.242",
+        "172.17.0.1"
+      ],
+      "ida_ripe_unique_count": 2,
+      "ida_scamper_unique_ips": [
+        "172.21.128.1",
+        "192.168.100.1"
+      ]
+    }
+  },
+  "habana": {
+    "udp": {
+      "msm_ida": 229622916,
+      "msm_vuelta": 229638824,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "200.14.48.132"
+          ],
+          "primary_ip": "200.14.48.132",
+          "asn": "AS27725",
+          "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+          "prefix": "200.14.48.0/21",
+          "rtts": [
+            4.35,
+            0.34,
+            0.31
+          ]
+        },
+        "2": {
+          "ips": [
+            "200.14.48.177"
+          ],
+          "primary_ip": "200.14.48.177",
+          "asn": "AS27725",
+          "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+          "prefix": "200.14.48.0/21",
+          "rtts": [
+            0.51,
+            0.51,
+            2.96
+          ]
+        },
+        "3": {
+          "ips": [
+            "192.168.118.89"
+          ],
+          "primary_ip": "192.168.118.89",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            16.99,
+            1.22,
+            1.62
+          ]
+        },
+        "4": {
+          "ips": [
+            "172.31.252.185"
+          ],
+          "primary_ip": "172.31.252.185",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            1.16,
+            1.09,
+            1.06
+          ]
+        },
+        "5": {
+          "ips": [
+            "200.0.16.28"
+          ],
+          "primary_ip": "200.0.16.28",
+          "asn": "AS11960",
+          "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+          "prefix": "200.0.16.0/24",
+          "rtts": [
+            1.75,
+            1.61,
+            1.66
+          ]
+        },
+        "6": {
+          "ips": [
+            "200.0.16.20"
+          ],
+          "primary_ip": "200.0.16.20",
+          "asn": "AS11960",
+          "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+          "prefix": "200.0.16.0/24",
+          "rtts": [
+            2.41,
+            2.03,
+            1.94
+          ]
+        },
+        "7": {
+          "ips": [
+            "89.221.37.180"
+          ],
+          "primary_ip": "89.221.37.180",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "89.221.32.0/20",
+          "rtts": [
+            72.31,
+            72.34,
+            72.34
+          ]
+        },
+        "8": {
+          "ips": [
+            "195.22.221.185"
+          ],
+          "primary_ip": "195.22.221.185",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "195.22.192.0/19",
+          "rtts": [
+            132.36,
+            132.32,
+            132.64
+          ]
+        },
+        "9": {
+          "ips": [
+            "195.22.221.1"
+          ],
+          "primary_ip": "195.22.221.1",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "195.22.192.0/19",
+          "rtts": [
+            167.15,
+            167.1,
+            167.25
+          ]
+        },
+        "10": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "11": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "12": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "13": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "14": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "172.31.252.185",
+        "192.168.118.89",
+        "195.22.221.1",
+        "195.22.221.185",
+        "200.0.16.20",
+        "200.0.16.28",
+        "200.14.48.132",
+        "200.14.48.177",
+        "89.221.37.180"
+      ],
+      "vuelta_unique_count": 9,
+      "ida_ripe_unique_ips": [
+        "172.17.0.1"
+      ],
+      "ida_ripe_unique_count": 1,
+      "ida_scamper_unique_ips": [
+        "10.253.197.25",
+        "10.253.198.77",
+        "10.253.198.78",
+        "100.80.96.1",
+        "172.21.128.1",
+        "192.168.100.1",
+        "192.168.8.133",
+        "193.251.143.67",
+        "200.0.16.21",
+        "200.0.16.29",
+        "200.0.16.62",
+        "200.14.48.134",
+        "200.14.48.178",
+        "213.140.35.110",
+        "5.53.7.51"
+      ]
+    },
+    "icmp": {
+      "msm_ida": 229623295,
+      "msm_vuelta": 229638841,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "200.14.48.132"
+          ],
+          "primary_ip": "200.14.48.132",
+          "asn": "AS27725",
+          "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+          "prefix": "200.14.48.0/21",
+          "rtts": [
+            0.44,
+            0.34,
+            0.27
+          ]
+        },
+        "2": {
+          "ips": [
+            "200.14.48.177"
+          ],
+          "primary_ip": "200.14.48.177",
+          "asn": "AS27725",
+          "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+          "prefix": "200.14.48.0/21",
+          "rtts": [
+            0.49,
+            2.14,
+            0.43
+          ]
+        },
+        "3": {
+          "ips": [
+            "192.168.118.89"
+          ],
+          "primary_ip": "192.168.118.89",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            24.83,
+            1.59,
+            1.45
+          ]
+        },
+        "4": {
+          "ips": [
+            "172.31.252.185"
+          ],
+          "primary_ip": "172.31.252.185",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            1.04,
+            0.97,
+            0.95
+          ]
+        },
+        "5": {
+          "ips": [
+            "200.0.16.84"
+          ],
+          "primary_ip": "200.0.16.84",
+          "asn": "AS11960",
+          "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+          "prefix": "200.0.16.0/24",
+          "rtts": [
+            1.71,
+            1.76,
+            1.68
+          ]
+        },
+        "6": {
+          "ips": [
+            "200.0.16.45"
+          ],
+          "primary_ip": "200.0.16.45",
+          "asn": "AS11960",
+          "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+          "prefix": "200.0.16.0/24",
+          "rtts": [
+            1.82,
+            1.76,
+            1.74
+          ]
+        },
+        "7": {
+          "ips": [
+            "200.0.16.20"
+          ],
+          "primary_ip": "200.0.16.20",
+          "asn": "AS11960",
+          "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+          "prefix": "200.0.16.0/24",
+          "rtts": [
+            2.2,
+            2.13,
+            1.94
+          ]
+        },
+        "8": {
+          "ips": [
+            "89.221.37.138"
+          ],
+          "primary_ip": "89.221.37.138",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "89.221.32.0/20",
+          "rtts": [
+            76.85,
+            76.87,
+            76.79
+          ]
+        },
+        "9": {
+          "ips": [
+            "195.22.221.41"
+          ],
+          "primary_ip": "195.22.221.41",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "195.22.192.0/19",
+          "rtts": [
+            136.43,
+            136.62,
+            136.28
+          ]
+        },
+        "10": {
+          "ips": [
+            "195.22.221.3"
+          ],
+          "primary_ip": "195.22.221.3",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "195.22.192.0/19",
+          "rtts": [
+            171.19,
+            170.99,
+            172.12
+          ]
+        },
+        "11": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "12": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "13": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "14": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "15": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "172.31.252.185",
+        "192.168.118.89",
+        "195.22.221.3",
+        "195.22.221.41",
+        "200.0.16.20",
+        "200.0.16.45",
+        "200.0.16.84",
+        "200.14.48.132",
+        "200.14.48.177",
+        "89.221.37.138"
+      ],
+      "vuelta_unique_count": 10,
+      "ida_ripe_unique_ips": [
+        "172.17.0.1"
+      ],
+      "ida_ripe_unique_count": 1,
+      "ida_scamper_unique_ips": [
+        "10.253.197.25",
+        "10.253.198.77",
+        "10.253.198.78",
+        "100.80.96.1",
+        "172.21.128.1",
+        "190.98.132.226",
+        "192.168.100.1",
+        "192.168.8.133",
+        "193.251.143.67",
+        "200.0.16.21",
+        "200.0.16.29",
+        "200.0.16.62",
+        "200.14.48.134",
+        "200.14.48.178",
+        "213.140.35.86",
+        "94.142.97.65"
+      ]
+    },
+    "tcp": {
+      "msm_ida": 229623665,
+      "msm_vuelta": 229638856,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "200.14.48.132"
+          ],
+          "primary_ip": "200.14.48.132",
+          "asn": "AS27725",
+          "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+          "prefix": "200.14.48.0/21",
+          "rtts": [
+            0.51,
+            0.35,
+            0.36
+          ]
+        },
+        "2": {
+          "ips": [
+            "200.14.48.177"
+          ],
+          "primary_ip": "200.14.48.177",
+          "asn": "AS27725",
+          "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+          "prefix": "200.14.48.0/21",
+          "rtts": [
+            0.58,
+            0.54,
+            0.53
+          ]
+        },
+        "3": {
+          "ips": [
+            "192.168.118.89"
+          ],
+          "primary_ip": "192.168.118.89",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            38.59,
+            1.5,
+            1.45
+          ]
+        },
+        "4": {
+          "ips": [
+            "172.31.252.185"
+          ],
+          "primary_ip": "172.31.252.185",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            1.16,
+            1.08,
+            1.06
+          ]
+        },
+        "5": {
+          "ips": [
+            "200.0.16.84"
+          ],
+          "primary_ip": "200.0.16.84",
+          "asn": "AS11960",
+          "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+          "prefix": "200.0.16.0/24",
+          "rtts": [
+            1.9,
+            1.81,
+            1.8
+          ]
+        },
+        "6": {
+          "ips": [
+            "200.0.16.45"
+          ],
+          "primary_ip": "200.0.16.45",
+          "asn": "AS11960",
+          "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+          "prefix": "200.0.16.0/24",
+          "rtts": [
+            2.02,
+            1.87,
+            1.88
+          ]
+        },
+        "7": {
+          "ips": [
+            "200.0.16.20"
+          ],
+          "primary_ip": "200.0.16.20",
+          "asn": "AS11960",
+          "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+          "prefix": "200.0.16.0/24",
+          "rtts": [
+            2.33,
+            1.96,
+            2.34
+          ]
+        },
+        "8": {
+          "ips": [
+            "89.221.37.180"
+          ],
+          "primary_ip": "89.221.37.180",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "89.221.32.0/20",
+          "rtts": [
+            72.5,
+            71.98,
+            72.11
+          ]
+        },
+        "9": {
+          "ips": [
+            "195.22.221.41"
+          ],
+          "primary_ip": "195.22.221.41",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "195.22.192.0/19",
+          "rtts": [
+            137.04,
+            138.36,
+            136.85
+          ]
+        },
+        "10": {
+          "ips": [
+            "195.22.221.3"
+          ],
+          "primary_ip": "195.22.221.3",
+          "asn": "AS6762",
+          "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+          "prefix": "195.22.192.0/19",
+          "rtts": [
+            171.26,
+            170.86,
+            171.15
+          ]
+        },
+        "11": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "12": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "13": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "14": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "15": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "172.31.252.185",
+        "192.168.118.89",
+        "195.22.221.3",
+        "195.22.221.41",
+        "200.0.16.20",
+        "200.0.16.45",
+        "200.0.16.84",
+        "200.14.48.132",
+        "200.14.48.177",
+        "89.221.37.180"
+      ],
+      "vuelta_unique_count": 10,
+      "ida_ripe_unique_ips": [
+        "172.17.0.1",
+        "200.14.48.134"
+      ],
+      "ida_ripe_unique_count": 2,
+      "ida_scamper_unique_ips": [
+        "172.21.128.1",
+        "192.168.100.1"
+      ]
+    }
+  },
+  "rusia": {
+    "udp": {
+      "msm_ida": 229623802,
+      "msm_vuelta": 229638870,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "192.168.30.1"
+          ],
+          "primary_ip": "192.168.30.1",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            9.0,
+            2.64,
+            2.65
+          ]
+        },
+        "2": {
+          "ips": [
+            "37.79.226.33"
+          ],
+          "primary_ip": "37.79.226.33",
+          "asn": "AS12389",
+          "holder": "ROSTELECOM-AS PJSC Rostelecom",
+          "prefix": "37.79.224.0/20",
+          "rtts": [
+            3.86,
+            3.23,
+            2.61
+          ]
+        },
+        "3": {
+          "ips": [
+            "2.63.212.245"
+          ],
+          "primary_ip": "2.63.212.245",
+          "asn": "AS12389",
+          "holder": "ROSTELECOM-AS PJSC Rostelecom",
+          "prefix": "2.60.0.0/14",
+          "rtts": [
+            4.1,
+            4.8,
+            4.19
+          ]
+        },
+        "4": {
+          "ips": [
+            "172.29.8.149"
+          ],
+          "primary_ip": "172.29.8.149",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            3.59,
+            3.3,
+            3.28
+          ]
+        },
+        "5": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "6": {
+          "ips": [
+            "212.133.1.53"
+          ],
+          "primary_ip": "212.133.1.53",
+          "asn": "AS3356",
+          "holder": "LEVEL3 - Level 3 Parent, LLC",
+          "prefix": "212.133.0.0/17",
+          "rtts": [
+            102.78,
+            50.48,
+            50.07
+          ]
+        },
+        "7": {
+          "ips": [
+            "200.189.207.14"
+          ],
+          "primary_ip": "200.189.207.14",
+          "asn": "AS3549",
+          "holder": "LVLT-3549 - Level 3 Parent, LLC",
+          "prefix": "200.189.192.0/18",
+          "rtts": [
+            274.98,
+            270.04,
+            270.03
+          ]
+        },
+        "8": {
+          "ips": [
+            "8.243.188.94"
+          ],
+          "primary_ip": "8.243.188.94",
+          "asn": "AS3356",
+          "holder": "LEVEL3 - Level 3 Parent, LLC",
+          "prefix": "8.243.176.0/20",
+          "rtts": [
+            280.67,
+            280.63,
+            280.59
+          ]
+        },
+        "9": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "10": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "11": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "12": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "13": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "172.29.8.149",
+        "192.168.30.1",
+        "2.63.212.245",
+        "200.189.207.14",
+        "212.133.1.53",
+        "37.79.226.33",
+        "8.243.188.94"
+      ],
+      "vuelta_unique_count": 7,
+      "ida_ripe_unique_ips": [
+        "172.17.0.1"
+      ],
+      "ida_ripe_unique_count": 1,
+      "ida_scamper_unique_ips": [
+        "10.253.197.25",
+        "10.253.198.77",
+        "10.253.198.78",
+        "100.80.96.1",
+        "172.21.128.1",
+        "192.168.100.1",
+        "192.168.8.133",
+        "195.22.211.209",
+        "195.22.214.161",
+        "195.22.221.2"
+      ]
+    },
+    "icmp": {
+      "msm_ida": 229624261,
+      "msm_vuelta": 229638887,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "192.168.30.1"
+          ],
+          "primary_ip": "192.168.30.1",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            8.44,
+            2.35,
+            2.2
+          ]
+        },
+        "2": {
+          "ips": [
+            "37.79.226.33"
+          ],
+          "primary_ip": "37.79.226.33",
+          "asn": "AS12389",
+          "holder": "ROSTELECOM-AS PJSC Rostelecom",
+          "prefix": "37.79.224.0/20",
+          "rtts": [
+            3.58,
+            3.34,
+            3.03
+          ]
+        },
+        "3": {
+          "ips": [
+            "2.63.212.245"
+          ],
+          "primary_ip": "2.63.212.245",
+          "asn": "AS12389",
+          "holder": "ROSTELECOM-AS PJSC Rostelecom",
+          "prefix": "2.60.0.0/14",
+          "rtts": [
+            6.15,
+            6.59,
+            6.32
+          ]
+        },
+        "4": {
+          "ips": [
+            "172.29.8.149"
+          ],
+          "primary_ip": "172.29.8.149",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            5.78,
+            5.38,
+            5.73
+          ]
+        },
+        "5": {
+          "ips": [
+            "172.29.39.179"
+          ],
+          "primary_ip": "172.29.39.179",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            50.98,
+            51.06
+          ]
+        },
+        "6": {
+          "ips": [
+            "212.133.1.53"
+          ],
+          "primary_ip": "212.133.1.53",
+          "asn": "AS3356",
+          "holder": "LEVEL3 - Level 3 Parent, LLC",
+          "prefix": "212.133.0.0/17",
+          "rtts": [
+            69.48,
+            53.28,
+            55.71
+          ]
+        },
+        "7": {
+          "ips": [
+            "200.189.207.6"
+          ],
+          "primary_ip": "200.189.207.6",
+          "asn": "AS3549",
+          "holder": "LVLT-3549 - Level 3 Parent, LLC",
+          "prefix": "200.189.192.0/18",
+          "rtts": [
+            275.79,
+            276.54,
+            275.17
+          ]
+        },
+        "8": {
+          "ips": [
+            "8.243.188.86"
+          ],
+          "primary_ip": "8.243.188.86",
+          "asn": "AS3356",
+          "holder": "LEVEL3 - Level 3 Parent, LLC",
+          "prefix": "8.243.176.0/20",
+          "rtts": [
+            286.5,
+            285.21,
+            286.1
+          ]
+        },
+        "9": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "10": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "11": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "12": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "13": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "172.29.39.179",
+        "172.29.8.149",
+        "192.168.30.1",
+        "2.63.212.245",
+        "200.189.207.6",
+        "212.133.1.53",
+        "37.79.226.33",
+        "8.243.188.86"
+      ],
+      "vuelta_unique_count": 8,
+      "ida_ripe_unique_ips": [
+        "172.17.0.1",
+        "37.79.226.46"
+      ],
+      "ida_ripe_unique_count": 2,
+      "ida_scamper_unique_ips": [
+        "10.253.197.25",
+        "10.253.198.77",
+        "10.253.198.78",
+        "100.80.96.1",
+        "172.21.128.1",
+        "192.168.100.1",
+        "192.168.8.133",
+        "192.168.9.138",
+        "195.22.211.209",
+        "195.22.221.2",
+        "2.63.212.246",
+        "37.79.226.46"
+      ]
+    },
+    "tcp": {
+      "msm_ida": 229624325,
+      "msm_vuelta": 229638899,
+      "vuelta_hops": {
+        "1": {
+          "ips": [
+            "192.168.30.1"
+          ],
+          "primary_ip": "192.168.30.1",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            9.52,
+            10.92,
+            3.11
+          ]
+        },
+        "2": {
+          "ips": [
+            "37.79.226.33"
+          ],
+          "primary_ip": "37.79.226.33",
+          "asn": "AS12389",
+          "holder": "ROSTELECOM-AS PJSC Rostelecom",
+          "prefix": "37.79.224.0/20",
+          "rtts": [
+            4.26,
+            8.97,
+            8.77
+          ]
+        },
+        "3": {
+          "ips": [
+            "2.63.212.245"
+          ],
+          "primary_ip": "2.63.212.245",
+          "asn": "AS12389",
+          "holder": "ROSTELECOM-AS PJSC Rostelecom",
+          "prefix": "2.60.0.0/14",
+          "rtts": [
+            14.74,
+            15.73,
+            16.87
+          ]
+        },
+        "4": {
+          "ips": [
+            "172.29.8.151"
+          ],
+          "primary_ip": "172.29.8.151",
+          "asn": "Privada (ISP/LAN)",
+          "holder": "Red Interna ISP / Tránsito",
+          "prefix": "RFC1918",
+          "rtts": [
+            6.91,
+            19.04,
+            6.71
+          ]
+        },
+        "5": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "6": {
+          "ips": [
+            "212.133.1.53"
+          ],
+          "primary_ip": "212.133.1.53",
+          "asn": "AS3356",
+          "holder": "LEVEL3 - Level 3 Parent, LLC",
+          "prefix": "212.133.0.0/17",
+          "rtts": [
+            65.81,
+            56.2,
+            53.95
+          ]
+        },
+        "7": {
+          "ips": [
+            "200.189.207.14"
+          ],
+          "primary_ip": "200.189.207.14",
+          "asn": "AS3549",
+          "holder": "LVLT-3549 - Level 3 Parent, LLC",
+          "prefix": "200.189.192.0/18",
+          "rtts": [
+            271.21,
+            270.11,
+            287.06
+          ]
+        },
+        "8": {
+          "ips": [
+            "8.243.188.94"
+          ],
+          "primary_ip": "8.243.188.94",
+          "asn": "AS3356",
+          "holder": "LEVEL3 - Level 3 Parent, LLC",
+          "prefix": "8.243.176.0/20",
+          "rtts": [
+            287.56,
+            287.55,
+            283.32
+          ]
+        },
+        "9": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "10": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "11": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "12": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        },
+        "13": {
+          "ips": [
+            "*"
+          ],
+          "primary_ip": "*",
+          "asn": "—",
+          "holder": "Sin respuesta (*)",
+          "prefix": "—",
+          "rtts": []
+        }
+      },
+      "vuelta_unique_ips": [
+        "172.29.8.151",
+        "192.168.30.1",
+        "2.63.212.245",
+        "200.189.207.14",
+        "212.133.1.53",
+        "37.79.226.33",
+        "8.243.188.94"
+      ],
+      "vuelta_unique_count": 7,
+      "ida_ripe_unique_ips": [
+        "172.17.0.1",
+        "37.79.226.46"
+      ],
+      "ida_ripe_unique_count": 2,
+      "ida_scamper_unique_ips": [
+        "172.21.128.1",
+        "192.168.100.1",
+        "37.79.226.46"
+      ]
+    }
+  }
+}

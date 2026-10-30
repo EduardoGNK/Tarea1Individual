@@ -1,0 +1,17 @@
+# Archivos de informe y compilación LaTeX (excluidos del repositorio de código)
+tarea/results/INFORME_FINAL_PATH_DISCOVERY.tex
+tarea/results/*.md
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+
+# Cachés de Python y entorno
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db

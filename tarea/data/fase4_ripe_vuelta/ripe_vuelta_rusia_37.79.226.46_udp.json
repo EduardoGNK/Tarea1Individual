@@ -1,0 +1,324 @@
+{
+  "measurement_id": 229638870,
+  "timestamp": "2026-10-30T05:44:35.159686",
+  "source_probe": 3959,
+  "source_ip": "37.79.226.46",
+  "source_slug": "rusia",
+  "target_ip": "181.42.130.114",
+  "protocol": "UDP",
+  "port": 33435,
+  "request_payload": {
+    "definitions": [
+      {
+        "target": "181.42.130.114",
+        "af": 4,
+        "type": "traceroute",
+        "description": "UDP Tarea 1 Vuelta UDP from rusia (probe 3959) to 181.42.130.114",
+        "protocol": "UDP",
+        "resolve_on_probe": true,
+        "skip_dns_check": false,
+        "packets": 3,
+        "size": 48,
+        "first_hop": 1,
+        "max_hops": 32,
+        "paris": 16,
+        "response_timeout": 4000,
+        "dont_fragment": false,
+        "is_oneoff": true,
+        "port": 33435
+      }
+    ],
+    "probes": [
+      {
+        "value": "3959",
+        "type": "probes",
+        "requested": 1
+      }
+    ],
+    "is_oneoff": true
+  },
+  "results": [
+    {
+      "fw": 4790,
+      "lts": 14,
+      "endtime": 1793349864,
+      "dst_name": "181.42.130.114",
+      "dst_addr": "181.42.130.114",
+      "src_addr": "192.168.30.141",
+      "proto": "UDP",
+      "af": 4,
+      "size": 48,
+      "paris_id": 1,
+      "result": [
+        {
+          "hop": 1,
+          "result": [
+            {
+              "from": "192.168.30.1",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 8.998
+            },
+            {
+              "from": "192.168.30.1",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 2.641
+            },
+            {
+              "from": "192.168.30.1",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 2.647
+            }
+          ]
+        },
+        {
+          "hop": 2,
+          "result": [
+            {
+              "from": "37.79.226.33",
+              "ttl": 63,
+              "size": 76,
+              "rtt": 3.862
+            },
+            {
+              "from": "37.79.226.33",
+              "ttl": 63,
+              "size": 76,
+              "rtt": 3.229
+            },
+            {
+              "from": "37.79.226.33",
+              "ttl": 63,
+              "size": 76,
+              "rtt": 2.614
+            }
+          ]
+        },
+        {
+          "hop": 3,
+          "result": [
+            {
+              "from": "2.63.212.245",
+              "ttl": 253,
+              "size": 28,
+              "rtt": 4.097
+            },
+            {
+              "from": "2.63.212.245",
+              "ttl": 253,
+              "size": 28,
+              "rtt": 4.803
+            },
+            {
+              "from": "2.63.212.245",
+              "ttl": 253,
+              "size": 28,
+              "rtt": 4.19
+            }
+          ]
+        },
+        {
+          "hop": 4,
+          "result": [
+            {
+              "from": "172.29.8.149",
+              "ttl": 252,
+              "size": 28,
+              "rtt": 3.594
+            },
+            {
+              "from": "172.29.8.149",
+              "ttl": 252,
+              "size": 28,
+              "rtt": 3.299
+            },
+            {
+              "from": "172.29.8.149",
+              "ttl": 252,
+              "size": 28,
+              "rtt": 3.282
+            }
+          ]
+        },
+        {
+          "hop": 5,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 6,
+          "result": [
+            {
+              "from": "212.133.1.53",
+              "ttl": 248,
+              "size": 28,
+              "rtt": 102.778
+            },
+            {
+              "from": "212.133.1.53",
+              "ttl": 248,
+              "size": 28,
+              "rtt": 50.48
+            },
+            {
+              "from": "212.133.1.53",
+              "ttl": 248,
+              "size": 28,
+              "rtt": 50.068
+            }
+          ]
+        },
+        {
+          "hop": 7,
+          "result": [
+            {
+              "from": "200.189.207.14",
+              "ttl": 238,
+              "size": 28,
+              "rtt": 274.975
+            },
+            {
+              "from": "200.189.207.14",
+              "ttl": 238,
+              "size": 28,
+              "rtt": 270.04
+            },
+            {
+              "from": "200.189.207.14",
+              "ttl": 238,
+              "size": 28,
+              "rtt": 270.033
+            }
+          ]
+        },
+        {
+          "hop": 8,
+          "result": [
+            {
+              "from": "8.243.188.94",
+              "ttl": 244,
+              "size": 28,
+              "rtt": 280.674
+            },
+            {
+              "from": "8.243.188.94",
+              "ttl": 244,
+              "size": 28,
+              "rtt": 280.626
+            },
+            {
+              "from": "8.243.188.94",
+              "ttl": 244,
+              "size": 28,
+              "rtt": 280.594
+            }
+          ]
+        },
+        {
+          "hop": 9,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 10,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 11,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 12,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 13,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 255,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        }
+      ],
+      "destination_ip_responded": false,
+      "msm_id": 229638870,
+      "prb_id": 3959,
+      "timestamp": 1793349777,
+      "msm_name": "Traceroute",
+      "from": "37.79.226.46",
+      "type": "traceroute",
+      "group_id": 229638870,
+      "stored_timestamp": 1793349870
+    }
+  ]
+}

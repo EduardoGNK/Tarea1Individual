@@ -1,0 +1,1783 @@
+[
+  {
+    "numberVerification": [
+      {
+        "longNumber": 281474976710655
+      }
+    ]
+  },
+  {
+    "metaData": [
+      {
+        "name": "nodes",
+        "elementCount": 18,
+        "idCounter": 18,
+        "version": "1.0",
+        "consistencyGroup": 1,
+        "properties": []
+      },
+      {
+        "name": "edges",
+        "elementCount": 27,
+        "idCounter": 27,
+        "version": "1.0",
+        "consistencyGroup": 1,
+        "properties": []
+      },
+      {
+        "name": "networkAttributes",
+        "elementCount": 11,
+        "idCounter": 11,
+        "version": "1.0",
+        "consistencyGroup": 1,
+        "properties": []
+      },
+      {
+        "name": "nodeAttributes",
+        "elementCount": 180,
+        "idCounter": 180,
+        "version": "1.0",
+        "consistencyGroup": 1,
+        "properties": []
+      },
+      {
+        "name": "edgeAttributes",
+        "elementCount": 81,
+        "idCounter": 81,
+        "version": "1.0",
+        "consistencyGroup": 1,
+        "properties": []
+      },
+      {
+        "name": "cartesianLayout",
+        "elementCount": 18,
+        "idCounter": 19,
+        "properties": []
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "@id": 0,
+        "n": "181.42.130.114",
+        "r": "181.42.130.114 [AS27651 - ENTEL CHILE S.A. (BAF Origen)]"
+      },
+      {
+        "@id": 1,
+        "n": "138.204.230.242",
+        "r": "138.204.230.242 [AS61506 - INSACOM SpA (Sonda RIPE Atlas 6652 - Valparaíso)]"
+      },
+      {
+        "@id": 2,
+        "n": "172.21.128.1",
+        "r": "172.21.128.1 [WSL2-HyperV - Gateway Virtual WSL2 (Windows Host)]"
+      },
+      {
+        "@id": 3,
+        "n": "192.168.100.1",
+        "r": "192.168.100.1 [LAN-CPE - Router Fibra Óptica Hogar (ONT Entel)]"
+      },
+      {
+        "@id": 4,
+        "n": "100.80.96.1",
+        "r": "100.80.96.1 [AS27651-CGNAT - ENTEL CHILE S.A. (CGNAT RFC6598)]"
+      },
+      {
+        "@id": 5,
+        "n": "10.253.198.77",
+        "r": "10.253.198.77 [AS27651-Core - ENTEL CHILE S.A. (Backbone MPLS Core)]"
+      },
+      {
+        "@id": 6,
+        "n": "10.253.198.78",
+        "r": "10.253.198.78 [AS27651-Core - ENTEL CHILE S.A. (Backbone MPLS Core)]"
+      },
+      {
+        "@id": 7,
+        "n": "10.253.197.25",
+        "r": "10.253.197.25 [AS27651-Core - ENTEL CHILE S.A. (Backbone MPLS Core)]"
+      },
+      {
+        "@id": 8,
+        "n": "45.68.16.129",
+        "r": "45.68.16.129 [AS61522-IXP - PIT Chile SpA (Punto de Intercambio de Tráfico)]"
+      },
+      {
+        "@id": 9,
+        "n": "10.100.154.1",
+        "r": "10.100.154.1 [AS61506-Int - INSACOM SpA (Enlace Interno /30 Ida)]"
+      },
+      {
+        "@id": 10,
+        "n": "138.204.228.164",
+        "r": "138.204.228.164 [AS61506 - INSACOM SpA (Router Distribución Valparaíso)]"
+      },
+      {
+        "@id": 11,
+        "n": "138.204.228.162",
+        "r": "138.204.228.162 [AS61506 - INSACOM SpA (Router Agregación Valparaíso)]"
+      },
+      {
+        "@id": 12,
+        "n": "172.17.0.1",
+        "r": "172.17.0.1 [Docker-Bridge - Docker Desktop NAT Gateway (Sonda 1018519)]"
+      },
+      {
+        "@id": 13,
+        "n": "138.204.230.193",
+        "r": "138.204.230.193 [AS61506 - INSACOM SpA (Gateway Acceso Sonda 6652)]"
+      },
+      {
+        "@id": 14,
+        "n": "10.100.163.1",
+        "r": "10.100.163.1 [AS61506-Int - INSACOM SpA (Core Interno Valparaíso)]"
+      },
+      {
+        "@id": 15,
+        "n": "10.100.154.2",
+        "r": "10.100.154.2 [AS61506-Int - INSACOM SpA (Enlace Interno /30 Vuelta)]"
+      },
+      {
+        "@id": 16,
+        "n": "45.68.17.13",
+        "r": "45.68.17.13 [AS61522-IXP - PIT Chile SpA (Punto de Intercambio de Tráfico)]"
+      },
+      {
+        "@id": 17,
+        "n": "138.204.228.163",
+        "r": "138.204.228.163 [AS61506 - INSACOM SpA (Router Agregación Valparaíso)]"
+      }
+    ]
+  },
+  {
+    "edges": [
+      {
+        "@id": 0,
+        "s": 0,
+        "t": 2,
+        "i": "IDA"
+      },
+      {
+        "@id": 1,
+        "s": 2,
+        "t": 3,
+        "i": "IDA"
+      },
+      {
+        "@id": 2,
+        "s": 3,
+        "t": 4,
+        "i": "IDA"
+      },
+      {
+        "@id": 3,
+        "s": 4,
+        "t": 5,
+        "i": "IDA"
+      },
+      {
+        "@id": 4,
+        "s": 5,
+        "t": 6,
+        "i": "IDA"
+      },
+      {
+        "@id": 5,
+        "s": 6,
+        "t": 7,
+        "i": "IDA"
+      },
+      {
+        "@id": 6,
+        "s": 7,
+        "t": 8,
+        "i": "IDA"
+      },
+      {
+        "@id": 7,
+        "s": 8,
+        "t": 9,
+        "i": "IDA"
+      },
+      {
+        "@id": 8,
+        "s": 9,
+        "t": 10,
+        "i": "IDA"
+      },
+      {
+        "@id": 9,
+        "s": 10,
+        "t": 11,
+        "i": "IDA"
+      },
+      {
+        "@id": 10,
+        "s": 11,
+        "t": 1,
+        "i": "IDA"
+      },
+      {
+        "@id": 11,
+        "s": 8,
+        "t": 10,
+        "i": "IDA"
+      },
+      {
+        "@id": 12,
+        "s": 3,
+        "t": 1,
+        "i": "IDA"
+      },
+      {
+        "@id": 13,
+        "s": 0,
+        "t": 12,
+        "i": "IDA"
+      },
+      {
+        "@id": 14,
+        "s": 12,
+        "t": 1,
+        "i": "IDA"
+      },
+      {
+        "@id": 15,
+        "s": 1,
+        "t": 13,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 16,
+        "s": 13,
+        "t": 10,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 17,
+        "s": 10,
+        "t": 14,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 18,
+        "s": 14,
+        "t": 15,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 19,
+        "s": 15,
+        "t": 16,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 20,
+        "s": 16,
+        "t": 13,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 21,
+        "s": 16,
+        "t": 17,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 22,
+        "s": 13,
+        "t": 0,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 23,
+        "s": 16,
+        "t": 0,
+        "i": "VUELTA"
+      },
+      {
+        "@id": 24,
+        "s": 9,
+        "t": 15,
+        "i": "PAR_ROUTER_/30"
+      },
+      {
+        "@id": 25,
+        "s": 8,
+        "t": 16,
+        "i": "PAR_ROUTER_/30"
+      },
+      {
+        "@id": 26,
+        "s": 11,
+        "t": 17,
+        "i": "PAR_ROUTER_/30"
+      }
+    ]
+  },
+  {
+    "networkAttributes": [
+      {
+        "n": "name",
+        "v": "UDP Path Discovery - Valparaiso (138.204.230.242 - Sonda 6652) <-> BAF Entel Chile (181.42.130.114 - AS27651)",
+        "d": "string"
+      },
+      {
+        "n": "description",
+        "v": "Grafo de Topología Completa (Ida y Vuelta) — Tarea Individual Path Discovery (UDP).\n- ISP Origen (BAF): ENTEL CHILE S.A. (AS27651) | IP Pública: 181.42.130.114 | Prefijo BGP: 181.42.128.0/21 | Sonda RIPE Atlas Origen: 1018519 (Docker)\n- Sonda Destino: Valparaíso, Chile (Mayor velocidad) | IP: 138.204.230.242 (Sonda RIPE Atlas ID 6652)\n- IDs de Medición RIPE Atlas Principales (Requisito 4.3): IDA = 229621764 | VUELTA = 229638791\n- Todos los IDs RIPE Atlas IDA (Sonda 1018519 -> 138.204.230.242): UDP=229621225, ICMP=229621764, TCP=229622098\n- Todos los IDs RIPE Atlas VUELTA (Sonda 6652 -> 181.42.130.114): UDP=229638773, ICMP=229638791, TCP=229638809\n- Criterio de Ruta Más Completa (Requisito 4.1): Fusión de la ruta directa de Scamper v20260902 (ICMP/ICMP-Paris/UDP/UDP-Paris/TCP-ACK + ramas ECMP descubiertas por tracelb) con la ruta de RIPE Atlas de Ida y la ruta de RIPE Atlas de Vuelta, maximizando la visibilidad de nodos IP (18 IPs únicas y 27 enlaces dirigidos)."
+      },
+      {
+        "n": "version",
+        "v": "1.0 - Scamper 20260902 + RIPE Atlas"
+      },
+      {
+        "n": "isp_origen",
+        "v": "ENTEL CHILE S.A. (AS27651)"
+      },
+      {
+        "n": "ip_publica_baf",
+        "v": "181.42.130.114"
+      },
+      {
+        "n": "prefijo_bgp_baf",
+        "v": "181.42.128.0/21"
+      },
+      {
+        "n": "probe_id_origen",
+        "v": "1018519"
+      },
+      {
+        "n": "probe_id_destino",
+        "v": "6652"
+      },
+      {
+        "n": "ip_destino",
+        "v": "138.204.230.242"
+      },
+      {
+        "n": "ripe_measurement_id_ida",
+        "v": "229621764"
+      },
+      {
+        "n": "ripe_measurement_id_vuelta",
+        "v": "229638791"
+      }
+    ]
+  },
+  {
+    "nodeAttributes": [
+      {
+        "po": 0,
+        "n": "ip",
+        "v": "181.42.130.114"
+      },
+      {
+        "po": 0,
+        "n": "label",
+        "v": "181.42.130.114\n(AS27651)"
+      },
+      {
+        "po": 0,
+        "n": "hop",
+        "v": "Ida:0 | Vuelta:N/A"
+      },
+      {
+        "po": 0,
+        "n": "hop_ida",
+        "v": "0"
+      },
+      {
+        "po": 0,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 0,
+        "n": "as",
+        "v": "AS27651"
+      },
+      {
+        "po": 0,
+        "n": "isp",
+        "v": "ENTEL CHILE S.A. (BAF Origen)"
+      },
+      {
+        "po": 0,
+        "n": "prefix",
+        "v": "181.42.128.0/21"
+      },
+      {
+        "po": 0,
+        "n": "direction",
+        "v": "ORIGEN_BAF"
+      },
+      {
+        "po": 0,
+        "n": "methods",
+        "v": "Origen BAF (Entel AS27651)"
+      },
+      {
+        "po": 1,
+        "n": "ip",
+        "v": "138.204.230.242"
+      },
+      {
+        "po": 1,
+        "n": "label",
+        "v": "138.204.230.242\n(AS61506)"
+      },
+      {
+        "po": 1,
+        "n": "hop",
+        "v": "Ida:2,3,5,10,11 | Vuelta:N/A"
+      },
+      {
+        "po": 1,
+        "n": "hop_ida",
+        "v": "2,3,5,10,11"
+      },
+      {
+        "po": 1,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 1,
+        "n": "as",
+        "v": "AS61506"
+      },
+      {
+        "po": 1,
+        "n": "isp",
+        "v": "INSACOM SpA (Sonda RIPE Atlas 6652 - Valparaíso)"
+      },
+      {
+        "po": 1,
+        "n": "prefix",
+        "v": "138.204.230.0/24"
+      },
+      {
+        "po": 1,
+        "n": "direction",
+        "v": "DESTINO_SONDA"
+      },
+      {
+        "po": 1,
+        "n": "methods",
+        "v": "ripe-ida-icmp, ripe-ida-tcp, scamper-icmp, scamper-icmp-paris, scamper-tcp-ack, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-tcp-ack-sport, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 2,
+        "n": "ip",
+        "v": "172.21.128.1"
+      },
+      {
+        "po": 2,
+        "n": "label",
+        "v": "172.21.128.1\n(WSL2-HyperV)"
+      },
+      {
+        "po": 2,
+        "n": "hop",
+        "v": "Ida:1 | Vuelta:N/A"
+      },
+      {
+        "po": 2,
+        "n": "hop_ida",
+        "v": "1"
+      },
+      {
+        "po": 2,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 2,
+        "n": "as",
+        "v": "WSL2-HyperV"
+      },
+      {
+        "po": 2,
+        "n": "isp",
+        "v": "Gateway Virtual WSL2 (Windows Host)"
+      },
+      {
+        "po": 2,
+        "n": "prefix",
+        "v": "172.21.128.0/20"
+      },
+      {
+        "po": 2,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 2,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-tcp, scamper-tcp-ack, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-tcp-ack-sport, tracelb-tcp-sport, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 3,
+        "n": "ip",
+        "v": "192.168.100.1"
+      },
+      {
+        "po": 3,
+        "n": "label",
+        "v": "192.168.100.1\n(LAN-CPE)"
+      },
+      {
+        "po": 3,
+        "n": "hop",
+        "v": "Ida:2 | Vuelta:N/A"
+      },
+      {
+        "po": 3,
+        "n": "hop_ida",
+        "v": "2"
+      },
+      {
+        "po": 3,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 3,
+        "n": "as",
+        "v": "LAN-CPE"
+      },
+      {
+        "po": 3,
+        "n": "isp",
+        "v": "Router Fibra Óptica Hogar (ONT Entel)"
+      },
+      {
+        "po": 3,
+        "n": "prefix",
+        "v": "192.168.100.0/24"
+      },
+      {
+        "po": 3,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 3,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-tcp, scamper-tcp-ack, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-tcp-ack-sport, tracelb-tcp-sport, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 4,
+        "n": "ip",
+        "v": "100.80.96.1"
+      },
+      {
+        "po": 4,
+        "n": "label",
+        "v": "100.80.96.1\n(AS27651-CGNAT)"
+      },
+      {
+        "po": 4,
+        "n": "hop",
+        "v": "Ida:3 | Vuelta:N/A"
+      },
+      {
+        "po": 4,
+        "n": "hop_ida",
+        "v": "3"
+      },
+      {
+        "po": 4,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 4,
+        "n": "as",
+        "v": "AS27651-CGNAT"
+      },
+      {
+        "po": 4,
+        "n": "isp",
+        "v": "ENTEL CHILE S.A. (CGNAT RFC6598)"
+      },
+      {
+        "po": 4,
+        "n": "prefix",
+        "v": "100.64.0.0/10"
+      },
+      {
+        "po": 4,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 4,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 5,
+        "n": "ip",
+        "v": "10.253.198.77"
+      },
+      {
+        "po": 5,
+        "n": "label",
+        "v": "10.253.198.77\n(AS27651-Core)"
+      },
+      {
+        "po": 5,
+        "n": "hop",
+        "v": "Ida:4 | Vuelta:N/A"
+      },
+      {
+        "po": 5,
+        "n": "hop_ida",
+        "v": "4"
+      },
+      {
+        "po": 5,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 5,
+        "n": "as",
+        "v": "AS27651-Core"
+      },
+      {
+        "po": 5,
+        "n": "isp",
+        "v": "ENTEL CHILE S.A. (Backbone MPLS Core)"
+      },
+      {
+        "po": 5,
+        "n": "prefix",
+        "v": "10.0.0.0/8"
+      },
+      {
+        "po": 5,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 5,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 6,
+        "n": "ip",
+        "v": "10.253.198.78"
+      },
+      {
+        "po": 6,
+        "n": "label",
+        "v": "10.253.198.78\n(AS27651-Core)"
+      },
+      {
+        "po": 6,
+        "n": "hop",
+        "v": "Ida:5 | Vuelta:N/A"
+      },
+      {
+        "po": 6,
+        "n": "hop_ida",
+        "v": "5"
+      },
+      {
+        "po": 6,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 6,
+        "n": "as",
+        "v": "AS27651-Core"
+      },
+      {
+        "po": 6,
+        "n": "isp",
+        "v": "ENTEL CHILE S.A. (Backbone MPLS Core)"
+      },
+      {
+        "po": 6,
+        "n": "prefix",
+        "v": "10.0.0.0/8"
+      },
+      {
+        "po": 6,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 6,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 7,
+        "n": "ip",
+        "v": "10.253.197.25"
+      },
+      {
+        "po": 7,
+        "n": "label",
+        "v": "10.253.197.25\n(AS27651-Core)"
+      },
+      {
+        "po": 7,
+        "n": "hop",
+        "v": "Ida:6 | Vuelta:N/A"
+      },
+      {
+        "po": 7,
+        "n": "hop_ida",
+        "v": "6"
+      },
+      {
+        "po": 7,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 7,
+        "n": "as",
+        "v": "AS27651-Core"
+      },
+      {
+        "po": 7,
+        "n": "isp",
+        "v": "ENTEL CHILE S.A. (Backbone MPLS Core)"
+      },
+      {
+        "po": 7,
+        "n": "prefix",
+        "v": "10.0.0.0/8"
+      },
+      {
+        "po": 7,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 7,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 8,
+        "n": "ip",
+        "v": "45.68.16.129"
+      },
+      {
+        "po": 8,
+        "n": "label",
+        "v": "45.68.16.129\n(AS61522-IXP)"
+      },
+      {
+        "po": 8,
+        "n": "hop",
+        "v": "Ida:7 | Vuelta:N/A"
+      },
+      {
+        "po": 8,
+        "n": "hop_ida",
+        "v": "7"
+      },
+      {
+        "po": 8,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 8,
+        "n": "as",
+        "v": "AS61522-IXP"
+      },
+      {
+        "po": 8,
+        "n": "isp",
+        "v": "PIT Chile SpA (Punto de Intercambio de Tráfico)"
+      },
+      {
+        "po": 8,
+        "n": "prefix",
+        "v": "45.68.16.0/23"
+      },
+      {
+        "po": 8,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 8,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 9,
+        "n": "ip",
+        "v": "10.100.154.1"
+      },
+      {
+        "po": 9,
+        "n": "label",
+        "v": "10.100.154.1\n(AS61506-Int)"
+      },
+      {
+        "po": 9,
+        "n": "hop",
+        "v": "Ida:8 | Vuelta:N/A"
+      },
+      {
+        "po": 9,
+        "n": "hop_ida",
+        "v": "8"
+      },
+      {
+        "po": 9,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 9,
+        "n": "as",
+        "v": "AS61506-Int"
+      },
+      {
+        "po": 9,
+        "n": "isp",
+        "v": "INSACOM SpA (Enlace Interno /30 Ida)"
+      },
+      {
+        "po": 9,
+        "n": "prefix",
+        "v": "10.100.154.0/30"
+      },
+      {
+        "po": 9,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 9,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, tracelb-icmp-echo, tracelb-udp-sport"
+      },
+      {
+        "po": 10,
+        "n": "ip",
+        "v": "138.204.228.164"
+      },
+      {
+        "po": 10,
+        "n": "label",
+        "v": "138.204.228.164\n(AS61506)"
+      },
+      {
+        "po": 10,
+        "n": "hop",
+        "v": "Ida:8,9 | Vuelta:2"
+      },
+      {
+        "po": 10,
+        "n": "hop_ida",
+        "v": "8,9"
+      },
+      {
+        "po": 10,
+        "n": "hop_vuelta",
+        "v": "2"
+      },
+      {
+        "po": 10,
+        "n": "as",
+        "v": "AS61506"
+      },
+      {
+        "po": 10,
+        "n": "isp",
+        "v": "INSACOM SpA (Router Distribución Valparaíso)"
+      },
+      {
+        "po": 10,
+        "n": "prefix",
+        "v": "138.204.228.0/24"
+      },
+      {
+        "po": 10,
+        "n": "direction",
+        "v": "IDA_Y_VUELTA"
+      },
+      {
+        "po": 10,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp, scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 11,
+        "n": "ip",
+        "v": "138.204.228.162"
+      },
+      {
+        "po": 11,
+        "n": "label",
+        "v": "138.204.228.162\n(AS61506)"
+      },
+      {
+        "po": 11,
+        "n": "hop",
+        "v": "Ida:9,10 | Vuelta:N/A"
+      },
+      {
+        "po": 11,
+        "n": "hop_ida",
+        "v": "9,10"
+      },
+      {
+        "po": 11,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 11,
+        "n": "as",
+        "v": "AS61506"
+      },
+      {
+        "po": 11,
+        "n": "isp",
+        "v": "INSACOM SpA (Router Agregación Valparaíso)"
+      },
+      {
+        "po": 11,
+        "n": "prefix",
+        "v": "138.204.228.0/24"
+      },
+      {
+        "po": 11,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 11,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 12,
+        "n": "ip",
+        "v": "172.17.0.1"
+      },
+      {
+        "po": 12,
+        "n": "label",
+        "v": "172.17.0.1\n(Docker-Bridge)"
+      },
+      {
+        "po": 12,
+        "n": "hop",
+        "v": "Ida:1 | Vuelta:N/A"
+      },
+      {
+        "po": 12,
+        "n": "hop_ida",
+        "v": "1"
+      },
+      {
+        "po": 12,
+        "n": "hop_vuelta",
+        "v": "N/A"
+      },
+      {
+        "po": 12,
+        "n": "as",
+        "v": "Docker-Bridge"
+      },
+      {
+        "po": 12,
+        "n": "isp",
+        "v": "Docker Desktop NAT Gateway (Sonda 1018519)"
+      },
+      {
+        "po": 12,
+        "n": "prefix",
+        "v": "172.17.0.0/16"
+      },
+      {
+        "po": 12,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 12,
+        "n": "methods",
+        "v": "ripe-ida-icmp, ripe-ida-tcp, ripe-ida-udp"
+      },
+      {
+        "po": 13,
+        "n": "ip",
+        "v": "138.204.230.193"
+      },
+      {
+        "po": 13,
+        "n": "label",
+        "v": "138.204.230.193\n(AS61506)"
+      },
+      {
+        "po": 13,
+        "n": "hop",
+        "v": "Ida:N/A | Vuelta:1,7"
+      },
+      {
+        "po": 13,
+        "n": "hop_ida",
+        "v": "N/A"
+      },
+      {
+        "po": 13,
+        "n": "hop_vuelta",
+        "v": "1,7"
+      },
+      {
+        "po": 13,
+        "n": "as",
+        "v": "AS61506"
+      },
+      {
+        "po": 13,
+        "n": "isp",
+        "v": "INSACOM SpA (Gateway Acceso Sonda 6652)"
+      },
+      {
+        "po": 13,
+        "n": "prefix",
+        "v": "138.204.230.0/24"
+      },
+      {
+        "po": 13,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 13,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 14,
+        "n": "ip",
+        "v": "10.100.163.1"
+      },
+      {
+        "po": 14,
+        "n": "label",
+        "v": "10.100.163.1\n(AS61506-Int)"
+      },
+      {
+        "po": 14,
+        "n": "hop",
+        "v": "Ida:N/A | Vuelta:3"
+      },
+      {
+        "po": 14,
+        "n": "hop_ida",
+        "v": "N/A"
+      },
+      {
+        "po": 14,
+        "n": "hop_vuelta",
+        "v": "3"
+      },
+      {
+        "po": 14,
+        "n": "as",
+        "v": "AS61506-Int"
+      },
+      {
+        "po": 14,
+        "n": "isp",
+        "v": "INSACOM SpA (Core Interno Valparaíso)"
+      },
+      {
+        "po": 14,
+        "n": "prefix",
+        "v": "10.100.163.0/24"
+      },
+      {
+        "po": 14,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 14,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 15,
+        "n": "ip",
+        "v": "10.100.154.2"
+      },
+      {
+        "po": 15,
+        "n": "label",
+        "v": "10.100.154.2\n(AS61506-Int)"
+      },
+      {
+        "po": 15,
+        "n": "hop",
+        "v": "Ida:N/A | Vuelta:4"
+      },
+      {
+        "po": 15,
+        "n": "hop_ida",
+        "v": "N/A"
+      },
+      {
+        "po": 15,
+        "n": "hop_vuelta",
+        "v": "4"
+      },
+      {
+        "po": 15,
+        "n": "as",
+        "v": "AS61506-Int"
+      },
+      {
+        "po": 15,
+        "n": "isp",
+        "v": "INSACOM SpA (Enlace Interno /30 Vuelta)"
+      },
+      {
+        "po": 15,
+        "n": "prefix",
+        "v": "10.100.154.0/30"
+      },
+      {
+        "po": 15,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 15,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 16,
+        "n": "ip",
+        "v": "45.68.17.13"
+      },
+      {
+        "po": 16,
+        "n": "label",
+        "v": "45.68.17.13\n(AS61522-IXP)"
+      },
+      {
+        "po": 16,
+        "n": "hop",
+        "v": "Ida:N/A | Vuelta:5"
+      },
+      {
+        "po": 16,
+        "n": "hop_ida",
+        "v": "N/A"
+      },
+      {
+        "po": 16,
+        "n": "hop_vuelta",
+        "v": "5"
+      },
+      {
+        "po": 16,
+        "n": "as",
+        "v": "AS61522-IXP"
+      },
+      {
+        "po": 16,
+        "n": "isp",
+        "v": "PIT Chile SpA (Punto de Intercambio de Tráfico)"
+      },
+      {
+        "po": 16,
+        "n": "prefix",
+        "v": "45.68.16.0/23"
+      },
+      {
+        "po": 16,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 16,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 17,
+        "n": "ip",
+        "v": "138.204.228.163"
+      },
+      {
+        "po": 17,
+        "n": "label",
+        "v": "138.204.228.163\n(AS61506)"
+      },
+      {
+        "po": 17,
+        "n": "hop",
+        "v": "Ida:N/A | Vuelta:7"
+      },
+      {
+        "po": 17,
+        "n": "hop_ida",
+        "v": "N/A"
+      },
+      {
+        "po": 17,
+        "n": "hop_vuelta",
+        "v": "7"
+      },
+      {
+        "po": 17,
+        "n": "as",
+        "v": "AS61506"
+      },
+      {
+        "po": 17,
+        "n": "isp",
+        "v": "INSACOM SpA (Router Agregación Valparaíso)"
+      },
+      {
+        "po": 17,
+        "n": "prefix",
+        "v": "138.204.228.0/24"
+      },
+      {
+        "po": 17,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 17,
+        "n": "methods",
+        "v": "ripe-vuelta-udp"
+      }
+    ]
+  },
+  {
+    "edgeAttributes": [
+      {
+        "po": 0,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 0,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-tcp, scamper-tcp-ack, scamper-udp, scamper-udp-paris"
+      },
+      {
+        "po": 0,
+        "n": "hop_transition",
+        "v": "Ida Hop 0->1"
+      },
+      {
+        "po": 1,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 1,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-tcp, scamper-tcp-ack, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-tcp-ack-sport, tracelb-tcp-sport, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 1,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 1->2"
+      },
+      {
+        "po": 2,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 2,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 2,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 2->3"
+      },
+      {
+        "po": 3,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 3,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 3,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 3->4"
+      },
+      {
+        "po": 4,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 4,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 4,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 4->5"
+      },
+      {
+        "po": 5,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 5,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 5,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 5->6"
+      },
+      {
+        "po": 6,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 6,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 6,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 6->7"
+      },
+      {
+        "po": 7,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 7,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, tracelb-icmp-echo, tracelb-udp-sport"
+      },
+      {
+        "po": 7,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 7->8"
+      },
+      {
+        "po": 8,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 8,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, tracelb-icmp-echo, tracelb-udp-sport"
+      },
+      {
+        "po": 8,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 8->9"
+      },
+      {
+        "po": 9,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 9,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 9,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 8->9; Ida Hop 9->10"
+      },
+      {
+        "po": 10,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 10,
+        "n": "methods",
+        "v": "scamper-icmp, scamper-icmp-paris, scamper-udp, scamper-udp-paris, tracelb-icmp-echo, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 10,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 10->11; Ida Hop 9->10"
+      },
+      {
+        "po": 11,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 11,
+        "n": "methods",
+        "v": "scamper-udp-paris, tracelb-udp-dport, tracelb-udp-sport"
+      },
+      {
+        "po": 11,
+        "n": "hop_transition",
+        "v": "Enlace tracelb (ECMP); Ida Hop 7->8"
+      },
+      {
+        "po": 12,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 12,
+        "n": "methods",
+        "v": "scamper-tcp-ack"
+      },
+      {
+        "po": 12,
+        "n": "hop_transition",
+        "v": "Ida Hop 2->..->5"
+      },
+      {
+        "po": 13,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 13,
+        "n": "methods",
+        "v": "ripe-ida-icmp, ripe-ida-tcp, ripe-ida-udp"
+      },
+      {
+        "po": 13,
+        "n": "hop_transition",
+        "v": "RIPE Ida Hop 0->1"
+      },
+      {
+        "po": 14,
+        "n": "direction",
+        "v": "IDA"
+      },
+      {
+        "po": 14,
+        "n": "methods",
+        "v": "ripe-ida-icmp, ripe-ida-tcp"
+      },
+      {
+        "po": 14,
+        "n": "hop_transition",
+        "v": "RIPE Ida Hop 1->2; RIPE Ida Hop 1->3"
+      },
+      {
+        "po": 15,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 15,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 15,
+        "n": "hop_transition",
+        "v": "Vuelta Hop 0->1"
+      },
+      {
+        "po": 16,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 16,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 16,
+        "n": "hop_transition",
+        "v": "Vuelta Hop 1->2"
+      },
+      {
+        "po": 17,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 17,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 17,
+        "n": "hop_transition",
+        "v": "Vuelta Hop 2->3"
+      },
+      {
+        "po": 18,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 18,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 18,
+        "n": "hop_transition",
+        "v": "Vuelta Hop 3->4"
+      },
+      {
+        "po": 19,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 19,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp, ripe-vuelta-udp"
+      },
+      {
+        "po": 19,
+        "n": "hop_transition",
+        "v": "Vuelta Hop 4->5"
+      },
+      {
+        "po": 20,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 20,
+        "n": "methods",
+        "v": "ripe-vuelta-udp"
+      },
+      {
+        "po": 20,
+        "n": "hop_transition",
+        "v": "Vuelta Hop 5->..->7"
+      },
+      {
+        "po": 21,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 21,
+        "n": "methods",
+        "v": "ripe-vuelta-udp"
+      },
+      {
+        "po": 21,
+        "n": "hop_transition",
+        "v": "Vuelta Hop 5->..->7"
+      },
+      {
+        "po": 22,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 22,
+        "n": "methods",
+        "v": "ripe-vuelta-udp"
+      },
+      {
+        "po": 22,
+        "n": "hop_transition",
+        "v": "Llegada a BAF Entel (tras Hop 7 vuelta)"
+      },
+      {
+        "po": 23,
+        "n": "direction",
+        "v": "VUELTA"
+      },
+      {
+        "po": 23,
+        "n": "methods",
+        "v": "ripe-vuelta-icmp, ripe-vuelta-tcp"
+      },
+      {
+        "po": 23,
+        "n": "hop_transition",
+        "v": "Llegada a BAF Entel (tras Hop 5 vuelta)"
+      },
+      {
+        "po": 24,
+        "n": "direction",
+        "v": "PAR_ROUTER_/30"
+      },
+      {
+        "po": 24,
+        "n": "methods",
+        "v": "Correlación Subred /30 Ida-Vuelta"
+      },
+      {
+        "po": 24,
+        "n": "hop_transition",
+        "v": "Enlace /30 INSACOM (Hop 8 Ida <-> Hop 4 Vuelta)"
+      },
+      {
+        "po": 25,
+        "n": "direction",
+        "v": "PAR_ROUTER_/30"
+      },
+      {
+        "po": 25,
+        "n": "methods",
+        "v": "Correlación Subred /30 Ida-Vuelta"
+      },
+      {
+        "po": 25,
+        "n": "hop_transition",
+        "v": "Peering IXP PIT Chile (Hop 7 Ida <-> Hop 5 Vuelta)"
+      },
+      {
+        "po": 26,
+        "n": "direction",
+        "v": "PAR_ROUTER_/30"
+      },
+      {
+        "po": 26,
+        "n": "methods",
+        "v": "Correlación Subred /30 Ida-Vuelta"
+      },
+      {
+        "po": 26,
+        "n": "hop_transition",
+        "v": "Par Agregación INSACOM (Hop 10 Ida <-> Hop 7 Vuelta UDP)"
+      }
+    ]
+  },
+  {
+    "cartesianLayout": [
+      {
+        "node": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "node": 1,
+        "x": 1600.0,
+        "y": 0.0
+      },
+      {
+        "node": 2,
+        "x": 100.0,
+        "y": -235.0
+      },
+      {
+        "node": 3,
+        "x": 200.0,
+        "y": -235.0
+      },
+      {
+        "node": 4,
+        "x": 300.0,
+        "y": -180.0
+      },
+      {
+        "node": 5,
+        "x": 400.0,
+        "y": -125.0
+      },
+      {
+        "node": 6,
+        "x": 500.0,
+        "y": -125.0
+      },
+      {
+        "node": 7,
+        "x": 600.0,
+        "y": -235.0
+      },
+      {
+        "node": 8,
+        "x": 700.0,
+        "y": -125.0
+      },
+      {
+        "node": 9,
+        "x": 800.0,
+        "y": -235.0
+      },
+      {
+        "node": 10,
+        "x": 880.0,
+        "y": 0.0
+      },
+      {
+        "node": 11,
+        "x": 900.0,
+        "y": -180.0
+      },
+      {
+        "node": 12,
+        "x": 100.0,
+        "y": -125.0
+      },
+      {
+        "node": 13,
+        "x": 1470.0,
+        "y": 125.0
+      },
+      {
+        "node": 14,
+        "x": 1210.0,
+        "y": 180.0
+      },
+      {
+        "node": 15,
+        "x": 1080.0,
+        "y": 125.0
+      },
+      {
+        "node": 16,
+        "x": 950.0,
+        "y": 180.0
+      },
+      {
+        "node": 17,
+        "x": 690.0,
+        "y": 125.0
+      }
+    ]
+  },
+  {
+    "status": [
+      {
+        "error": "",
+        "success": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,340 @@
+================================================================
+FASE 1 - SCAMPER TRACE (6 METODOS x 3 IPs)
+Fecha inicio: 2026-10-29T15:53:24-03:00
+Scamper version: scamper version 20260902
+================================================================
+
+[2026-10-29T15:53:24-03:00] >>> Ejecutando: Destino=valparaiso (138.204.230.242) | Metodo=udp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_udp.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_udp.warts" -c "trace -P udp" -i 138.204.230.242
+traceroute from 172.21.133.187 to 138.204.230.242
+ 1  172.21.128.1  0.540 ms
+ 2  192.168.100.1  1.521 ms
+ 3  100.80.96.1  6.299 ms
+ 4  10.253.198.77  2.930 ms
+ 5  10.253.198.78  3.568 ms
+ 6  10.253.197.25  3.048 ms
+ 7  45.68.16.129  2.774 ms
+ 8  10.100.154.1  6.110 ms
+ 9  138.204.228.164  5.699 ms
+10  138.204.228.162  6.568 ms
+11  138.204.230.242  6.218 ms
+[2026-10-29T15:53:28-03:00] <<< Finalizado: udp -> valparaiso (22 paquetes capturados en .pcap)
+
+[2026-10-29T15:53:28-03:00] >>> Ejecutando: Destino=valparaiso (138.204.230.242) | Metodo=icmp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_icmp.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_icmp.warts" -c "trace -P icmp" -i 138.204.230.242
+traceroute from 172.21.133.187 to 138.204.230.242
+ 1  172.21.128.1  0.718 ms
+ 2  192.168.100.1  1.584 ms
+ 3  100.80.96.1  5.908 ms
+ 4  10.253.198.77  4.708 ms
+ 5  10.253.198.78  5.780 ms
+ 6  10.253.197.25  6.171 ms
+ 7  45.68.16.129  3.497 ms
+ 8  10.100.154.1  7.069 ms
+ 9  138.204.228.164  6.491 ms
+10  138.204.228.162  5.664 ms
+11  138.204.230.242  5.690 ms
+[2026-10-29T15:53:41-03:00] <<< Finalizado: icmp -> valparaiso (24 paquetes capturados en .pcap)
+
+[2026-10-29T15:53:41-03:00] >>> Ejecutando: Destino=valparaiso (138.204.230.242) | Metodo=udp-paris
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_udp-paris.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_udp-paris.warts" -c "trace -P udp-paris" -i 138.204.230.242
+traceroute from 172.21.133.187 to 138.204.230.242
+ 1  172.21.128.1  0.285 ms
+ 2  192.168.100.1  1.587 ms
+ 3  100.80.96.1  2.767 ms
+ 4  10.253.198.77  4.231 ms
+ 5  10.253.198.78  3.469 ms
+ 6  10.253.197.25  2.358 ms
+ 7  45.68.16.129  3.418 ms
+ 8  138.204.228.164  4.800 ms
+ 9  138.204.228.162  5.273 ms
+10  138.204.230.242  5.996 ms
+[2026-10-29T15:53:44-03:00] <<< Finalizado: udp-paris -> valparaiso (20 paquetes capturados en .pcap)
+
+[2026-10-29T15:53:44-03:00] >>> Ejecutando: Destino=valparaiso (138.204.230.242) | Metodo=icmp-paris
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_icmp-paris.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_icmp-paris.warts" -c "trace -P icmp-paris" -i 138.204.230.242
+traceroute from 172.21.133.187 to 138.204.230.242
+ 1  172.21.128.1  0.543 ms
+ 2  192.168.100.1  2.019 ms
+ 3  100.80.96.1  2.911 ms
+ 4  10.253.198.77  2.768 ms
+ 5  10.253.198.78  3.548 ms
+ 6  10.253.197.25  2.830 ms
+ 7  45.68.16.129  2.618 ms
+ 8  10.100.154.1  7.614 ms
+ 9  138.204.228.164  7.432 ms
+10  138.204.228.162  6.416 ms
+11  138.204.230.242  5.830 ms
+[2026-10-29T15:53:47-03:00] <<< Finalizado: icmp-paris -> valparaiso (22 paquetes capturados en .pcap)
+
+[2026-10-29T15:53:47-03:00] >>> Ejecutando: Destino=valparaiso (138.204.230.242) | Metodo=tcp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_tcp.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_tcp.warts" -c "trace -P tcp" -i 138.204.230.242
+traceroute from 172.21.133.187 to 138.204.230.242
+ 1  172.21.128.1  0.394 ms
+ 2  192.168.100.1  1.765 ms
+ 3  *
+ 4  *
+ 5  *
+ 6  *
+ 7  *
+[2026-10-29T15:54:41-03:00] <<< Finalizado: tcp -> valparaiso (14 paquetes capturados en .pcap)
+
+[2026-10-29T15:54:41-03:00] >>> Ejecutando: Destino=valparaiso (138.204.230.242) | Metodo=tcp-ack
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_tcp-ack.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_valparaiso_138.204.230.242_tcp-ack.warts" -c "trace -P tcp-ack" -i 138.204.230.242
+traceroute from 172.21.133.187 to 138.204.230.242
+ 1  172.21.128.1  0.295 ms
+ 2  192.168.100.1  1.103 ms
+ 3  *
+ 4  *
+ 5  138.204.230.242  2.073 ms [closed]
+[2026-10-29T15:55:04-03:00] <<< Finalizado: tcp-ack -> valparaiso (10 paquetes capturados en .pcap)
+
+[2026-10-29T15:55:04-03:00] >>> Ejecutando: Destino=habana (200.14.48.134) | Metodo=udp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_udp.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_udp.warts" -c "trace -P udp" -i 200.14.48.134
+traceroute from 172.21.133.187 to 200.14.48.134
+ 1  172.21.128.1  1.018 ms
+ 2  192.168.100.1  1.862 ms
+ 3  100.80.96.1  3.270 ms
+ 4  10.253.198.77  3.308 ms
+ 5  10.253.198.78  3.306 ms
+ 6  10.253.197.25  3.341 ms
+ 7  192.168.8.133  3.813 ms
+ 8  190.98.132.226  5.233 ms
+ 9  5.53.7.51  121.773 ms
+10  213.140.35.110  134.663 ms
+11  193.251.143.67  129.123 ms
+12  *
+13  *
+14  200.0.16.62  164.770 ms
+15  200.0.16.21  160.485 ms
+16  200.0.16.29  196.697 ms
+17  *
+18  *
+19  200.14.48.178  166.470 ms
+20  200.14.48.134  168.324 ms
+[2026-10-29T15:56:16-03:00] <<< Finalizado: udp -> habana (41 paquetes capturados en .pcap)
+
+[2026-10-29T15:56:16-03:00] >>> Ejecutando: Destino=habana (200.14.48.134) | Metodo=icmp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_icmp.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_icmp.warts" -c "trace -P icmp" -i 200.14.48.134
+traceroute from 172.21.133.187 to 200.14.48.134
+ 1  172.21.128.1  0.551 ms
+ 2  192.168.100.1  1.414 ms
+ 3  100.80.96.1  3.721 ms
+ 4  10.253.198.77  4.853 ms
+ 5  10.253.198.78  2.848 ms
+ 6  10.253.197.25  3.147 ms
+ 7  192.168.8.133  2.728 ms
+ 8  190.98.132.226  6.399 ms
+ 9  94.142.97.65  96.029 ms
+10  213.140.35.86  127.473 ms
+11  193.251.143.67  123.669 ms
+12  *
+13  *
+14  200.0.16.62  158.403 ms
+15  200.0.16.21  159.057 ms
+16  200.0.16.29  195.703 ms
+17  *
+18  *
+19  200.14.48.178  161.845 ms
+20  200.14.48.134  159.510 ms
+[2026-10-29T15:57:25-03:00] <<< Finalizado: icmp -> habana (41 paquetes capturados en .pcap)
+
+[2026-10-29T15:57:25-03:00] >>> Ejecutando: Destino=habana (200.14.48.134) | Metodo=udp-paris
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_udp-paris.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_udp-paris.warts" -c "trace -P udp-paris" -i 200.14.48.134
+traceroute from 172.21.133.187 to 200.14.48.134
+ 1  172.21.128.1  0.426 ms
+ 2  192.168.100.1  1.013 ms
+ 3  100.80.96.1  3.372 ms
+ 4  10.253.198.77  4.128 ms
+ 5  10.253.198.78  2.928 ms
+ 6  10.253.197.25  3.075 ms
+ 7  192.168.8.133  2.270 ms
+ 8  5.53.7.51  120.647 ms
+ 9  213.140.35.110  133.275 ms
+10  193.251.143.67  477.322 ms
+11  *
+12  *
+13  200.0.16.62  163.886 ms
+14  200.0.16.21  164.048 ms
+15  200.0.16.29  199.992 ms
+16  *
+17  *
+18  200.14.48.178  165.525 ms
+19  200.14.48.134  164.747 ms
+[2026-10-29T15:58:35-03:00] <<< Finalizado: udp-paris -> habana (39 paquetes capturados en .pcap)
+
+[2026-10-29T15:58:35-03:00] >>> Ejecutando: Destino=habana (200.14.48.134) | Metodo=icmp-paris
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_icmp-paris.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_icmp-paris.warts" -c "trace -P icmp-paris" -i 200.14.48.134
+traceroute from 172.21.133.187 to 200.14.48.134
+ 1  172.21.128.1  0.311 ms
+ 2  192.168.100.1  1.250 ms
+ 3  100.80.96.1  3.684 ms
+ 4  10.253.198.77  2.843 ms
+ 5  10.253.198.78  3.750 ms
+ 6  10.253.197.25  3.015 ms
+ 7  192.168.8.133  4.162 ms
+ 8  190.98.132.226  5.348 ms
+ 9  94.142.97.65  95.906 ms
+10  213.140.35.86  127.382 ms
+11  193.251.143.67  123.710 ms
+12  *
+13  *
+14  200.0.16.62  163.292 ms
+15  200.0.16.21  160.834 ms
+16  200.0.16.29  196.423 ms
+17  *
+18  *
+19  200.14.48.178  160.379 ms
+20  200.14.48.134  164.893 ms
+[2026-10-29T15:59:45-03:00] <<< Finalizado: icmp-paris -> habana (41 paquetes capturados en .pcap)
+
+[2026-10-29T15:59:45-03:00] >>> Ejecutando: Destino=habana (200.14.48.134) | Metodo=tcp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_tcp.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_tcp.warts" -c "trace -P tcp" -i 200.14.48.134
+traceroute from 172.21.133.187 to 200.14.48.134
+ 1  172.21.128.1  0.298 ms
+ 2  192.168.100.1  1.117 ms
+ 3  *
+ 4  *
+ 5  *
+ 6  *
+ 7  *
+[2026-10-29T16:00:38-03:00] <<< Finalizado: tcp -> habana (14 paquetes capturados en .pcap)
+
+[2026-10-29T16:00:38-03:00] >>> Ejecutando: Destino=habana (200.14.48.134) | Metodo=tcp-ack
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_tcp-ack.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_habana_200.14.48.134_tcp-ack.warts" -c "trace -P tcp-ack" -i 200.14.48.134
+traceroute from 172.21.133.187 to 200.14.48.134
+ 1  172.21.128.1  0.281 ms
+ 2  192.168.100.1  1.143 ms
+ 3  *
+ 4  *
+ 5  200.14.48.134  2.522 ms [closed]
+[2026-10-29T16:01:06-03:00] <<< Finalizado: tcp-ack -> habana (10 paquetes capturados en .pcap)
+
+[2026-10-29T16:01:06-03:00] >>> Ejecutando: Destino=rusia (37.79.226.46) | Metodo=udp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_udp.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_udp.warts" -c "trace -P udp" -i 37.79.226.46
+traceroute from 172.21.133.187 to 37.79.226.46
+ 1  172.21.128.1  0.293 ms
+ 2  192.168.100.1  1.137 ms
+ 3  100.80.96.1  4.364 ms
+ 4  10.253.198.77  6.095 ms
+ 5  10.253.198.78  4.512 ms
+ 6  10.253.197.25  4.242 ms
+ 7  192.168.8.133  5.385 ms
+ 8  192.168.9.138  5.004 ms
+ 9  195.22.221.2  7.701 ms
+10  195.22.211.209  710.242 ms
+11  195.22.214.161  454.500 ms
+12  *
+13  *
+14  2.63.212.246  496.762 ms
+15  *
+16  *
+17  *
+18  *
+19  *
+[2026-10-29T16:02:23-03:00] <<< Finalizado: udp -> rusia (38 paquetes capturados en .pcap)
+
+[2026-10-29T16:02:23-03:00] >>> Ejecutando: Destino=rusia (37.79.226.46) | Metodo=icmp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_icmp.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_icmp.warts" -c "trace -P icmp" -i 37.79.226.46
+traceroute from 172.21.133.187 to 37.79.226.46
+ 1  172.21.128.1  0.391 ms
+ 2  192.168.100.1  2.226 ms
+ 3  100.80.96.1  3.574 ms
+ 4  10.253.198.77  2.710 ms
+ 5  10.253.198.78  2.270 ms
+ 6  10.253.197.25  3.157 ms
+ 7  192.168.8.133  4.827 ms
+ 8  192.168.9.138  4.818 ms
+ 9  195.22.221.2  6.791 ms
+10  195.22.211.209  214.625 ms
+11  *
+12  *
+13  *
+14  2.63.212.246  513.673 ms
+15  37.79.226.46  512.969 ms
+[2026-10-29T16:03:03-03:00] <<< Finalizado: icmp -> rusia (31 paquetes capturados en .pcap)
+
+[2026-10-29T16:03:03-03:00] >>> Ejecutando: Destino=rusia (37.79.226.46) | Metodo=udp-paris
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_udp-paris.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_udp-paris.warts" -c "trace -P udp-paris" -i 37.79.226.46
+traceroute from 172.21.133.187 to 37.79.226.46
+ 1  172.21.128.1  0.306 ms
+ 2  192.168.100.1  1.651 ms
+ 3  100.80.96.1  3.626 ms
+ 4  10.253.198.77  4.450 ms
+ 5  10.253.198.78  3.620 ms
+ 6  10.253.197.25  3.519 ms
+ 7  192.168.8.133  3.087 ms
+ 8  195.22.221.2  4.978 ms
+ 9  195.22.211.209  226.721 ms
+10  195.22.211.209  227.196 ms
+11  195.22.214.161  464.748 ms
+12  *
+13  *
+14  *
+15  *
+16  *
+[2026-10-29T16:04:04-03:00] <<< Finalizado: udp-paris -> rusia (33 paquetes capturados en .pcap)
+
+[2026-10-29T16:04:04-03:00] >>> Ejecutando: Destino=rusia (37.79.226.46) | Metodo=icmp-paris
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_icmp-paris.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_icmp-paris.warts" -c "trace -P icmp-paris" -i 37.79.226.46
+traceroute from 172.21.133.187 to 37.79.226.46
+ 1  172.21.128.1  0.345 ms
+ 2  192.168.100.1  1.682 ms
+ 3  100.80.96.1  4.593 ms
+ 4  10.253.198.77  4.641 ms
+ 5  10.253.198.78  3.234 ms
+ 6  10.253.197.25  3.397 ms
+ 7  192.168.8.133  3.385 ms
+ 8  192.168.9.138  5.617 ms
+ 9  195.22.221.2  7.719 ms
+10  195.22.211.209  215.583 ms
+11  *
+12  *
+13  *
+14  2.63.212.246  509.467 ms
+15  37.79.226.46  507.409 ms
+[2026-10-29T16:04:39-03:00] <<< Finalizado: icmp-paris -> rusia (30 paquetes capturados en .pcap)
+
+[2026-10-29T16:04:39-03:00] >>> Ejecutando: Destino=rusia (37.79.226.46) | Metodo=tcp
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_tcp.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_tcp.warts" -c "trace -P tcp" -i 37.79.226.46
+traceroute from 172.21.133.187 to 37.79.226.46
+ 1  172.21.128.1  0.734 ms
+ 2  192.168.100.1  0.837 ms
+ 3  *
+ 4  *
+ 5  *
+ 6  *
+ 7  37.79.226.46  4972.127 ms [closed]
+[2026-10-29T16:05:27-03:00] <<< Finalizado: tcp -> rusia (14 paquetes capturados en .pcap)
+
+[2026-10-29T16:05:27-03:00] >>> Ejecutando: Destino=rusia (37.79.226.46) | Metodo=tcp-ack
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_tcp-ack.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase1_trace/trace_rusia_37.79.226.46_tcp-ack.warts" -c "trace -P tcp-ack" -i 37.79.226.46
+traceroute from 172.21.133.187 to 37.79.226.46
+ 1  172.21.128.1  0.394 ms
+ 2  192.168.100.1  1.205 ms
+ 3  *
+ 4  *
+ 5  37.79.226.46  2.801 ms [closed]
+[2026-10-29T16:05:50-03:00] <<< Finalizado: tcp-ack -> rusia (10 paquetes capturados en .pcap)
+
+================================================================
+Fecha fin: 2026-10-29T16:05:50-03:00
+================================================================

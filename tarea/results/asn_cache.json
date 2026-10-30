@@ -1,0 +1,172 @@
+{
+  "172.17.0.1": {
+    "asn": "Local (Docker)",
+    "holder": "Bridge Docker Host",
+    "prefix": "172.17.0.0/16"
+  },
+  "138.204.230.242": {
+    "asn": "AS61506",
+    "holder": "AS61506 - INSACOM SpA",
+    "prefix": "138.204.230.0/24"
+  },
+  "200.14.48.134": {
+    "asn": "AS27725",
+    "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+    "prefix": "200.14.48.0/21"
+  },
+  "37.79.226.46": {
+    "asn": "AS12389",
+    "holder": "ROSTELECOM-AS PJSC Rostelecom",
+    "prefix": "37.79.224.0/20"
+  },
+  "138.204.230.193": {
+    "asn": "AS61506",
+    "holder": "AS61506 - INSACOM SpA",
+    "prefix": "138.204.230.0/24"
+  },
+  "138.204.228.164": {
+    "asn": "AS61506",
+    "holder": "AS61506 - INSACOM SpA",
+    "prefix": "138.204.228.0/24"
+  },
+  "10.100.163.1": {
+    "asn": "Privada (ISP/LAN)",
+    "holder": "Red Interna ISP / Tránsito",
+    "prefix": "RFC1918"
+  },
+  "10.100.154.2": {
+    "asn": "Privada (ISP/LAN)",
+    "holder": "Red Interna ISP / Tránsito",
+    "prefix": "RFC1918"
+  },
+  "45.68.17.13": {
+    "asn": "IXP / Peering",
+    "holder": "Prefijo de Intercambio / Peering",
+    "prefix": "—"
+  },
+  "200.14.48.132": {
+    "asn": "AS27725",
+    "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+    "prefix": "200.14.48.0/21"
+  },
+  "200.14.48.177": {
+    "asn": "AS27725",
+    "holder": "AS27725 - Empresa de Telecomunicaciones de Cuba, S.A.",
+    "prefix": "200.14.48.0/21"
+  },
+  "192.168.118.89": {
+    "asn": "Privada (ISP/LAN)",
+    "holder": "Red Interna ISP / Tránsito",
+    "prefix": "RFC1918"
+  },
+  "172.31.252.185": {
+    "asn": "Privada (ISP/LAN)",
+    "holder": "Red Interna ISP / Tránsito",
+    "prefix": "RFC1918"
+  },
+  "200.0.16.28": {
+    "asn": "AS11960",
+    "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+    "prefix": "200.0.16.0/24"
+  },
+  "200.0.16.20": {
+    "asn": "AS11960",
+    "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+    "prefix": "200.0.16.0/24"
+  },
+  "89.221.37.180": {
+    "asn": "AS6762",
+    "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+    "prefix": "89.221.32.0/20"
+  },
+  "195.22.221.185": {
+    "asn": "AS6762",
+    "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+    "prefix": "195.22.192.0/19"
+  },
+  "195.22.221.1": {
+    "asn": "AS6762",
+    "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+    "prefix": "195.22.192.0/19"
+  },
+  "200.0.16.84": {
+    "asn": "AS11960",
+    "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+    "prefix": "200.0.16.0/24"
+  },
+  "200.0.16.45": {
+    "asn": "AS11960",
+    "holder": "AS11960 - EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+    "prefix": "200.0.16.0/24"
+  },
+  "89.221.37.138": {
+    "asn": "AS6762",
+    "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+    "prefix": "89.221.32.0/20"
+  },
+  "195.22.221.41": {
+    "asn": "AS6762",
+    "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+    "prefix": "195.22.192.0/19"
+  },
+  "195.22.221.3": {
+    "asn": "AS6762",
+    "holder": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A.",
+    "prefix": "195.22.192.0/19"
+  },
+  "192.168.30.1": {
+    "asn": "Privada (ISP/LAN)",
+    "holder": "Red Interna ISP / Tránsito",
+    "prefix": "RFC1918"
+  },
+  "37.79.226.33": {
+    "asn": "AS12389",
+    "holder": "ROSTELECOM-AS PJSC Rostelecom",
+    "prefix": "37.79.224.0/20"
+  },
+  "2.63.212.245": {
+    "asn": "AS12389",
+    "holder": "ROSTELECOM-AS PJSC Rostelecom",
+    "prefix": "2.60.0.0/14"
+  },
+  "172.29.8.149": {
+    "asn": "Privada (ISP/LAN)",
+    "holder": "Red Interna ISP / Tránsito",
+    "prefix": "RFC1918"
+  },
+  "212.133.1.53": {
+    "asn": "AS3356",
+    "holder": "LEVEL3 - Level 3 Parent, LLC",
+    "prefix": "212.133.0.0/17"
+  },
+  "200.189.207.14": {
+    "asn": "AS3549",
+    "holder": "LVLT-3549 - Level 3 Parent, LLC",
+    "prefix": "200.189.192.0/18"
+  },
+  "8.243.188.94": {
+    "asn": "AS3356",
+    "holder": "LEVEL3 - Level 3 Parent, LLC",
+    "prefix": "8.243.176.0/20"
+  },
+  "172.29.39.179": {
+    "asn": "Privada (ISP/LAN)",
+    "holder": "Red Interna ISP / Tránsito",
+    "prefix": "RFC1918"
+  },
+  "200.189.207.6": {
+    "asn": "AS3549",
+    "holder": "LVLT-3549 - Level 3 Parent, LLC",
+    "prefix": "200.189.192.0/18"
+  },
+  "8.243.188.86": {
+    "asn": "AS3356",
+    "holder": "LEVEL3 - Level 3 Parent, LLC",
+    "prefix": "8.243.176.0/20"
+  },
+  "172.29.8.151": {
+    "asn": "Privada (ISP/LAN)",
+    "holder": "Red Interna ISP / Tránsito",
+    "prefix": "RFC1918"
+  }
+}

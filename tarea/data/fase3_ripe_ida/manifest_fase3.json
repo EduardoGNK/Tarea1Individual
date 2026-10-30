@@ -1,0 +1,62 @@
+{
+  "valparaiso": {
+    "udp": {
+      "measurement_id": 229621225,
+      "pcap": "ripe_ida_valparaiso_138.204.230.242_udp.pcap",
+      "json": "ripe_ida_valparaiso_138.204.230.242_udp.json",
+      "has_results": true
+    },
+    "icmp": {
+      "measurement_id": 229621764,
+      "pcap": "ripe_ida_valparaiso_138.204.230.242_icmp.pcap",
+      "json": "ripe_ida_valparaiso_138.204.230.242_icmp.json",
+      "has_results": true
+    },
+    "tcp": {
+      "measurement_id": 229622098,
+      "pcap": "ripe_ida_valparaiso_138.204.230.242_tcp.pcap",
+      "json": "ripe_ida_valparaiso_138.204.230.242_tcp.json",
+      "has_results": true
+    }
+  },
+  "habana": {
+    "udp": {
+      "measurement_id": 229622916,
+      "pcap": "ripe_ida_habana_200.14.48.134_udp.pcap",
+      "json": "ripe_ida_habana_200.14.48.134_udp.json",
+      "has_results": true
+    },
+    "icmp": {
+      "measurement_id": 229623295,
+      "pcap": "ripe_ida_habana_200.14.48.134_icmp.pcap",
+      "json": "ripe_ida_habana_200.14.48.134_icmp.json",
+      "has_results": true
+    },
+    "tcp": {
+      "measurement_id": 229623665,
+      "pcap": "ripe_ida_habana_200.14.48.134_tcp.pcap",
+      "json": "ripe_ida_habana_200.14.48.134_tcp.json",
+      "has_results": true
+    }
+  },
+  "rusia": {
+    "udp": {
+      "measurement_id": 229623802,
+      "pcap": "ripe_ida_rusia_37.79.226.46_udp.pcap",
+      "json": "ripe_ida_rusia_37.79.226.46_udp.json",
+      "has_results": true
+    },
+    "icmp": {
+      "measurement_id": 229624261,
+      "pcap": "ripe_ida_rusia_37.79.226.46_icmp.pcap",
+      "json": "ripe_ida_rusia_37.79.226.46_icmp.json",
+      "has_results": true
+    },
+    "tcp": {
+      "measurement_id": 229624325,
+      "pcap": "ripe_ida_rusia_37.79.226.46_tcp.pcap",
+      "json": "ripe_ida_rusia_37.79.226.46_tcp.json",
+      "has_results": true
+    }
+  }
+}

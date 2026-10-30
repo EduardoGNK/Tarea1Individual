@@ -1,0 +1,54 @@
+================================================================
+[2026-10-30T05:05:21.987725] FASE 3 - RIPE ATLAS TRACEROUTE IDA (SONDA 1018519 -> 3 IPs x 3 PROTOCOLOS)
+[2026-10-30T05:05:21.988303] Preparando imagen Docker local 'ripe-sniffer:local' con tcpdump...
+[2026-10-30T05:05:26.386500] Imagen 'ripe-sniffer:local' lista.
+[2026-10-30T05:05:26.660299] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_valparaiso_138.204.230.242_udp.pcap host 138.204.230.242 or icmp
+[2026-10-30T05:05:29.894718] Creando medición RIPE Atlas: UDP -> valparaiso (138.204.230.242) desde sonda 1018519...
+[2026-10-30T05:05:30.949292] Medición creada exitosamente: ID = 229621225
+[2026-10-30T05:06:49.115683] Resultado recibido en API para medición 229621225 tras 78s.
+[2026-10-30T05:06:52.051762] Guardado ripe_ida_valparaiso_138.204.230.242_udp.json y ripe_ida_valparaiso_138.204.230.242_udp.pcap (msm_id=229621225).
+[2026-10-30T05:06:52.264261] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_valparaiso_138.204.230.242_icmp.pcap host 138.204.230.242 or icmp
+[2026-10-30T05:06:54.948899] Creando medición RIPE Atlas: ICMP -> valparaiso (138.204.230.242) desde sonda 1018519...
+[2026-10-30T05:06:56.045683] Medición creada exitosamente: ID = 229621764
+[2026-10-30T05:07:03.032574] Resultado recibido en API para medición 229621764 tras 6s.
+[2026-10-30T05:07:05.678997] Guardado ripe_ida_valparaiso_138.204.230.242_icmp.json y ripe_ida_valparaiso_138.204.230.242_icmp.pcap (msm_id=229621764).
+[2026-10-30T05:07:05.875960] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_valparaiso_138.204.230.242_tcp.pcap host 138.204.230.242 or icmp
+[2026-10-30T05:07:08.415360] Creando medición RIPE Atlas: TCP -> valparaiso (138.204.230.242) desde sonda 1018519...
+[2026-10-30T05:07:09.598926] Medición creada exitosamente: ID = 229622098
+[2026-10-30T05:07:38.234723] Resultado recibido en API para medición 229622098 tras 28s.
+[2026-10-30T05:07:40.772204] Guardado ripe_ida_valparaiso_138.204.230.242_tcp.json y ripe_ida_valparaiso_138.204.230.242_tcp.pcap (msm_id=229622098).
+[2026-10-30T05:07:40.976838] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_habana_200.14.48.134_udp.pcap host 200.14.48.134 or icmp
+[2026-10-30T05:07:43.509659] Creando medición RIPE Atlas: UDP -> habana (200.14.48.134) desde sonda 1018519...
+[2026-10-30T05:07:44.378679] Medición creada exitosamente: ID = 229622916
+[2026-10-30T05:09:03.099666] Resultado recibido en API para medición 229622916 tras 78s.
+[2026-10-30T05:09:05.711131] Guardado ripe_ida_habana_200.14.48.134_udp.json y ripe_ida_habana_200.14.48.134_udp.pcap (msm_id=229622916).
+[2026-10-30T05:09:06.008632] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_habana_200.14.48.134_icmp.pcap host 200.14.48.134 or icmp
+[2026-10-30T05:09:08.711636] Creando medición RIPE Atlas: ICMP -> habana (200.14.48.134) desde sonda 1018519...
+[2026-10-30T05:09:09.525942] Medición creada exitosamente: ID = 229623295
+[2026-10-30T05:11:33.197113] Recuperado exitosamente JSON de medición 229623295 (Habana ICMP).
+[2026-10-30T05:11:33.220217] Saltando valparaiso UDP (ya completado con msm_id=229621225 y pcap válido).
+[2026-10-30T05:11:33.256447] Saltando valparaiso ICMP (ya completado con msm_id=229621764 y pcap válido).
+[2026-10-30T05:11:33.284772] Saltando valparaiso TCP (ya completado con msm_id=229622098 y pcap válido).
+[2026-10-30T05:11:33.320541] Saltando habana UDP (ya completado con msm_id=229622916 y pcap válido).
+[2026-10-30T05:11:33.350544] Saltando habana ICMP (ya completado con msm_id=229623295 y pcap válido).
+[2026-10-30T05:11:33.628632] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_habana_200.14.48.134_tcp.pcap host 200.14.48.134 or icmp
+[2026-10-30T05:11:37.884881] Creando medición RIPE Atlas: TCP -> habana (200.14.48.134) desde sonda 1018519...
+[2026-10-30T05:11:38.671928] Medición creada exitosamente: ID = 229623665
+[2026-10-30T05:12:02.833640] Resultado recibido en API para medición 229623665 tras 24s.
+[2026-10-30T05:12:05.464113] Guardado ripe_ida_habana_200.14.48.134_tcp.json y ripe_ida_habana_200.14.48.134_tcp.pcap (msm_id=229623665).
+[2026-10-30T05:12:05.662751] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_rusia_37.79.226.46_udp.pcap host 37.79.226.46 or icmp
+[2026-10-30T05:12:08.818751] Creando medición RIPE Atlas: UDP -> rusia (37.79.226.46) desde sonda 1018519...
+[2026-10-30T05:12:09.789159] Medición creada exitosamente: ID = 229623802
+[2026-10-30T05:13:26.681281] Resultado recibido en API para medición 229623802 tras 76s.
+[2026-10-30T05:13:29.312157] Guardado ripe_ida_rusia_37.79.226.46_udp.json y ripe_ida_rusia_37.79.226.46_udp.pcap (msm_id=229623802).
+[2026-10-30T05:13:29.670503] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_rusia_37.79.226.46_icmp.pcap host 37.79.226.46 or icmp
+[2026-10-30T05:13:32.241486] Creando medición RIPE Atlas: ICMP -> rusia (37.79.226.46) desde sonda 1018519...
+[2026-10-30T05:13:33.033118] Medición creada exitosamente: ID = 229624261
+[2026-10-30T05:13:41.201012] Resultado recibido en API para medición 229624261 tras 8s.
+[2026-10-30T05:13:43.812131] Guardado ripe_ida_rusia_37.79.226.46_icmp.json y ripe_ida_rusia_37.79.226.46_icmp.pcap (msm_id=229624261).
+[2026-10-30T05:13:43.980663] Iniciando captura Docker: docker run -d --name ripe-sniffer --net container:ripe-atlas -v H:\VisualStudio.js\Alg Rut Tarea 1 Individual\tarea\data\fase3_ripe_ida:/captures ripe-sniffer:local tcpdump -i eth0 -n -U -w /captures/ripe_ida_rusia_37.79.226.46_tcp.pcap host 37.79.226.46 or icmp
+[2026-10-30T05:13:46.472646] Creando medición RIPE Atlas: TCP -> rusia (37.79.226.46) desde sonda 1018519...
+[2026-10-30T05:13:47.565685] Medición creada exitosamente: ID = 229624325
+[2026-10-30T05:14:26.026638] Resultado recibido en API para medición 229624325 tras 38s.
+[2026-10-30T05:14:28.701595] Guardado ripe_ida_rusia_37.79.226.46_tcp.json y ripe_ida_rusia_37.79.226.46_tcp.pcap (msm_id=229624325).
+[2026-10-30T05:14:28.705039] FASE 3 EJECUCIÓN COMPLETADA.

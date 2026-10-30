@@ -1,0 +1,224 @@
+================================================================
+FASE 2 - SCAMPER TRACELB (5 MODOS x 3 IPs)
+Fecha inicio: 2026-10-30T02:33:13-03:00
+Scamper version: scamper version 20260902
+================================================================
+
+[2026-10-30T02:33:13-03:00] >>> Ejecutando tracelb: Destino=valparaiso (138.204.230.242) | Modo=udp-dport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_udp-dport.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_udp-dport.warts" -c "tracelb -P udp-dport" -i 138.204.230.242
+tracelb from 172.21.133.187 to 138.204.230.242, 10 nodes, 9 links, 50 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 45.68.16.129
+45.68.16.129 -> 138.204.228.164
+138.204.228.164 -> 138.204.228.162
+138.204.228.162 -> 138.204.230.242
+[2026-10-30T02:33:28-03:00] <<< Finalizado tracelb: udp-dport -> valparaiso (100 paquetes capturados en .pcap)
+
+[2026-10-30T02:33:28-03:00] >>> Ejecutando tracelb: Destino=valparaiso (138.204.230.242) | Modo=icmp-echo
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_icmp-echo.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_icmp-echo.warts" -c "tracelb -P icmp-echo" -i 138.204.230.242
+tracelb from 172.21.133.187 to 138.204.230.242, 11 nodes, 10 links, 56 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 45.68.16.129
+45.68.16.129 -> 10.100.154.1
+10.100.154.1 -> 138.204.228.164
+138.204.228.164 -> 138.204.228.162
+138.204.228.162 -> 138.204.230.242
+[2026-10-30T02:33:44-03:00] <<< Finalizado tracelb: icmp-echo -> valparaiso (112 paquetes capturados en .pcap)
+
+[2026-10-30T02:33:44-03:00] >>> Ejecutando tracelb: Destino=valparaiso (138.204.230.242) | Modo=udp-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_udp-sport.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_udp-sport.warts" -c "tracelb -P udp-sport" -i 138.204.230.242
+tracelb from 172.21.133.187 to 138.204.230.242, 11 nodes, 12 links, 88 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 45.68.16.129
+45.68.16.129 -> 10.100.154.1
+45.68.16.129 -> 138.204.228.164
+10.100.154.1 -> 138.204.228.164
+138.204.228.164 -> 138.204.228.162
+138.204.228.164 -> 138.204.228.164
+138.204.228.162 -> 138.204.230.242
+[2026-10-30T02:34:09-03:00] <<< Finalizado tracelb: udp-sport -> valparaiso (176 paquetes capturados en .pcap)
+
+[2026-10-30T02:34:09-03:00] >>> Ejecutando tracelb: Destino=valparaiso (138.204.230.242) | Modo=tcp-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_tcp-sport.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_tcp-sport.warts" -c "tracelb -P tcp-sport" -i 138.204.230.242
+tracelb from 172.21.133.187 to 138.204.230.242, 2 nodes, 2 links, 43 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> * -> * -> *
+[2026-10-30T02:37:14-03:00] <<< Finalizado tracelb: tcp-sport -> valparaiso (50 paquetes capturados en .pcap)
+
+[2026-10-30T02:37:14-03:00] >>> Ejecutando tracelb: Destino=valparaiso (138.204.230.242) | Modo=tcp-ack-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_tcp-ack-sport.pcap" "host 138.204.230.242 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_valparaiso_138.204.230.242_tcp-ack-sport.warts" -c "tracelb -P tcp-ack-sport" -i 138.204.230.242
+tracelb from 172.21.133.187 to 138.204.230.242, 3 nodes, 2 links, 32 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> * -> * -> 138.204.230.242
+[2026-10-30T02:39:19-03:00] <<< Finalizado tracelb: tcp-ack-sport -> valparaiso (40 paquetes capturados en .pcap)
+
+[2026-10-30T02:39:19-03:00] >>> Ejecutando tracelb: Destino=habana (200.14.48.134) | Modo=udp-dport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_udp-dport.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_udp-dport.warts" -c "tracelb -P udp-dport" -i 200.14.48.134
+tracelb from 172.21.133.187 to 200.14.48.134, 15 nodes, 17 links, 390 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 192.168.8.133
+192.168.8.133 -> 5.53.7.51
+192.168.8.133 -> 94.142.97.65
+192.168.8.133 -> 190.98.132.226
+5.53.7.51 -> (5.53.7.51, 213.140.35.110) -> 193.251.143.67
+94.142.97.65 -> 213.140.35.86
+190.98.132.226 -> (5.53.7.51, 94.142.97.65, 213.140.35.110) -> (213.140.35.86, 213.140.35.110) -> (193.251.143.67, *) -> * -> 200.0.16.62
+213.140.35.86 -> 193.251.143.67
+193.251.143.67 -> (193.251.143.67, *) -> * -> (200.0.16.62, *) -> (200.0.16.21, 200.0.16.62) -> (200.0.16.21, 200.0.16.29) -> (200.0.16.29, *) -> * -> *
+200.0.16.62 -> 200.0.16.21
+200.0.16.21 -> 200.0.16.29
+200.0.16.29 -> 200.0.16.29
+[2026-10-30T02:48:02-03:00] <<< Finalizado tracelb: udp-dport -> habana (700 paquetes capturados en .pcap)
+
+[2026-10-30T02:48:02-03:00] >>> Ejecutando tracelb: Destino=habana (200.14.48.134) | Modo=icmp-echo
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_icmp-echo.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_icmp-echo.warts" -c "tracelb -P icmp-echo" -i 200.14.48.134
+tracelb from 172.21.133.187 to 200.14.48.134, 14 nodes, 14 links, 139 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 192.168.8.133
+192.168.8.133 -> 190.98.132.226
+190.98.132.226 -> 94.142.97.65
+94.142.97.65 -> 213.140.35.86
+213.140.35.86 -> 193.251.143.67
+193.251.143.67 -> * -> * -> 200.0.16.62
+200.0.16.62 -> 200.0.16.21
+200.0.16.21 -> 200.0.16.29
+200.0.16.29 -> * -> * -> *
+[2026-10-30T02:53:46-03:00] <<< Finalizado tracelb: icmp-echo -> habana (218 paquetes capturados en .pcap)
+
+[2026-10-30T02:53:46-03:00] >>> Ejecutando tracelb: Destino=habana (200.14.48.134) | Modo=udp-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_udp-sport.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_udp-sport.warts" -c "tracelb -P udp-sport" -i 200.14.48.134
+tracelb from 172.21.133.187 to 200.14.48.134, 13 nodes, 15 links, 489 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 192.168.8.133
+192.168.8.133 -> 5.53.7.51
+192.168.8.133 -> 94.142.97.65
+192.168.8.133 -> 190.98.132.226
+5.53.7.51 -> (5.53.7.51, 213.140.35.110) -> 193.251.143.67
+94.142.97.65 -> (94.142.97.65, 213.140.35.86) -> (193.251.143.67, 213.140.35.86) -> * -> * -> 200.0.16.62
+190.98.132.226 -> (5.53.7.51, 94.142.97.65, 213.140.35.110) -> (213.140.35.86, 213.140.35.110) -> (193.251.143.67, *) -> * -> (200.0.16.62, *) -> (200.0.16.21, 200.0.16.62) -> (200.0.16.21, 200.0.16.25, 200.0.16.29) -> (200.0.16.29, *) -> * -> *
+193.251.143.67 -> * -> * -> 200.0.16.62
+200.0.16.62 -> 200.0.16.21
+200.0.16.21 -> 200.0.16.21
+[2026-10-30T03:03:27-03:00] <<< Finalizado tracelb: udp-sport -> habana (891 paquetes capturados en .pcap)
+
+[2026-10-30T03:03:27-03:00] >>> Ejecutando tracelb: Destino=habana (200.14.48.134) | Modo=tcp-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_tcp-sport.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_tcp-sport.warts" -c "tracelb -P tcp-sport" -i 200.14.48.134
+tracelb from 172.21.133.187 to 200.14.48.134, 2 nodes, 2 links, 43 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> * -> * -> *
+[2026-10-30T03:06:31-03:00] <<< Finalizado tracelb: tcp-sport -> habana (50 paquetes capturados en .pcap)
+
+[2026-10-30T03:06:31-03:00] >>> Ejecutando tracelb: Destino=habana (200.14.48.134) | Modo=tcp-ack-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_tcp-ack-sport.pcap" "host 200.14.48.134 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_habana_200.14.48.134_tcp-ack-sport.warts" -c "tracelb -P tcp-ack-sport" -i 200.14.48.134
+tracelb from 172.21.133.187 to 200.14.48.134, 3 nodes, 2 links, 32 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> * -> * -> 200.14.48.134
+[2026-10-30T03:08:36-03:00] <<< Finalizado tracelb: tcp-ack-sport -> habana (40 paquetes capturados en .pcap)
+
+[2026-10-30T03:08:36-03:00] >>> Ejecutando tracelb: Destino=rusia (37.79.226.46) | Modo=udp-dport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_udp-dport.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_udp-dport.warts" -c "tracelb -P udp-dport" -i 37.79.226.46
+tracelb from 172.21.133.187 to 37.79.226.46, 11 nodes, 12 links, 312 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 192.168.8.133
+192.168.8.133 -> 195.22.221.2
+195.22.221.2 -> 195.22.211.61
+195.22.221.2 -> 195.22.211.209
+195.22.221.2 -> 195.22.221.2
+195.22.211.61 -> (195.22.211.61, 195.22.214.161, *) -> (195.22.214.161, *) -> * -> (2.63.212.246, *) -> (2.63.212.246, *) -> * -> *
+195.22.211.209 -> (195.22.214.161, 195.22.211.209) -> 195.22.214.161
+[2026-10-30T03:13:26-03:00] <<< Finalizado tracelb: udp-dport -> rusia (580 paquetes capturados en .pcap)
+
+[2026-10-30T03:13:26-03:00] >>> Ejecutando tracelb: Destino=rusia (37.79.226.46) | Modo=icmp-echo
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_icmp-echo.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_icmp-echo.warts" -c "tracelb -P icmp-echo" -i 37.79.226.46
+tracelb from 172.21.133.187 to 37.79.226.46, 12 nodes, 11 links, 101 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 192.168.8.133
+192.168.8.133 -> 192.168.9.138
+192.168.9.138 -> 195.22.221.2
+195.22.221.2 -> 195.22.211.209
+195.22.211.209 -> (195.22.214.161, *) -> * -> * -> 2.63.212.246
+2.63.212.246 -> 37.79.226.46
+[2026-10-30T03:16:31-03:00] <<< Finalizado tracelb: icmp-echo -> rusia (169 paquetes capturados en .pcap)
+
+[2026-10-30T03:16:31-03:00] >>> Ejecutando tracelb: Destino=rusia (37.79.226.46) | Modo=udp-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_udp-sport.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_udp-sport.warts" -c "tracelb -P udp-sport" -i 37.79.226.46
+tracelb from 172.21.133.187 to 37.79.226.46, 11 nodes, 13 links, 335 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> 100.80.96.1
+100.80.96.1 -> 10.253.198.77
+10.253.198.77 -> 10.253.198.78
+10.253.198.78 -> 10.253.197.25
+10.253.197.25 -> 192.168.8.133
+192.168.8.133 -> 195.22.221.2
+195.22.221.2 -> 195.22.211.61
+195.22.221.2 -> 195.22.211.209
+195.22.221.2 -> 195.22.221.2
+195.22.211.61 -> (195.22.211.61, *) -> * -> * -> 2.63.212.246
+195.22.211.209 -> (195.22.214.161, *) -> (195.22.214.161, *) -> * -> 2.63.212.246
+2.63.212.246 -> (2.63.212.246, *) -> * -> * -> *
+[2026-10-30T03:23:27-03:00] <<< Finalizado tracelb: udp-sport -> rusia (601 paquetes capturados en .pcap)
+
+[2026-10-30T03:23:27-03:00] >>> Ejecutando tracelb: Destino=rusia (37.79.226.46) | Modo=tcp-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_tcp-sport.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_tcp-sport.warts" -c "tracelb -P tcp-sport" -i 37.79.226.46
+tracelb from 172.21.133.187 to 37.79.226.46, 2 nodes, 2 links, 43 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> * -> * -> *
+[2026-10-30T03:26:31-03:00] <<< Finalizado tracelb: tcp-sport -> rusia (50 paquetes capturados en .pcap)
+
+[2026-10-30T03:26:31-03:00] >>> Ejecutando tracelb: Destino=rusia (37.79.226.46) | Modo=tcp-ack-sport
+Comando tcpdump: tcpdump -i eth0 -n -U -w "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_tcp-ack-sport.pcap" "host 37.79.226.46 or icmp"
+Comando scamper: scamper -O warts -o "/mnt/h/VisualStudio.js/Alg Rut Tarea 1 Individual/tarea/data/fase2_tracelb/tracelb_rusia_37.79.226.46_tcp-ack-sport.warts" -c "tracelb -P tcp-ack-sport" -i 37.79.226.46
+tracelb from 172.21.133.187 to 37.79.226.46, 3 nodes, 2 links, 32 probes, 95%
+172.21.128.1 -> 192.168.100.1
+192.168.100.1 -> * -> * -> 37.79.226.46
+[2026-10-30T03:28:36-03:00] <<< Finalizado tracelb: tcp-ack-sport -> rusia (40 paquetes capturados en .pcap)
+
+================================================================
+Fecha fin: 2026-10-30T03:28:36-03:00
+================================================================

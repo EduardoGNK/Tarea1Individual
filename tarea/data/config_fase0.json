@@ -1,0 +1,29 @@
+{
+    "timestamp":  "2026-10-29T15:46:26.9902440-03:00",
+    "public_ip":  "181.42.130.114",
+    "ripe_api_key":  "<RIPE_ATLAS_API_KEY>",
+    "targets":  [
+                    {
+                        "ip":  "138.204.230.242",
+                        "name":  "Valparaiso",
+                        "probe_id":  6652,
+                        "asn":  "AS61506"
+                    },
+                    {
+                        "ip":  "200.14.48.134",
+                        "name":  "Habana",
+                        "probe_id":  12734,
+                        "asn":  "AS27725"
+                    },
+                    {
+                        "ip":  "37.79.226.46",
+                        "name":  "Rusia",
+                        "probe_id":  3959,
+                        "asn":  "AS12389"
+                    }
+                ],
+    "asn":  "AS27651",
+    "isp":  "ENTEL CHILE S.A.",
+    "my_probe_id":  1018519,
+    "bgp_prefix":  "181.42.128.0/21"
+}

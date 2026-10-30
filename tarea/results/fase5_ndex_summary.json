@@ -1,0 +1,1713 @@
+{
+  "valparaiso": {
+    "title": "UDP Path Discovery - Valparaiso (138.204.230.242 - Sonda 6652) <-> BAF Entel Chile (181.42.130.114 - AS27651)",
+    "target_ip": "138.204.230.242",
+    "probe_id": 6652,
+    "uuid": "d7f709ad-d441-11f1-bda1-005056ae3c32",
+    "viewer_url": "https://www.ndexbio.org/viewer/networks/d7f709ad-d441-11f1-bda1-005056ae3c32",
+    "api_summary_url": "https://www.ndexbio.org/v2/network/d7f709ad-d441-11f1-bda1-005056ae3c32/summary",
+    "visibility": "PUBLIC",
+    "node_count": 18,
+    "edge_count": 27,
+    "primary_msm_ida": 229621764,
+    "primary_msm_vuelta": 229638791,
+    "all_msm_ida": {
+      "UDP": 229621225,
+      "ICMP": 229621764,
+      "TCP": 229622098
+    },
+    "all_msm_vuelta": {
+      "UDP": 229638773,
+      "ICMP": 229638791,
+      "TCP": 229638809
+    },
+    "total_unique_ips": [
+      "10.100.154.1",
+      "10.100.154.2",
+      "10.100.163.1",
+      "10.253.197.25",
+      "10.253.198.77",
+      "10.253.198.78",
+      "100.80.96.1",
+      "138.204.228.162",
+      "138.204.228.163",
+      "138.204.228.164",
+      "138.204.230.193",
+      "138.204.230.242",
+      "172.17.0.1",
+      "172.21.128.1",
+      "181.42.130.114",
+      "192.168.100.1",
+      "45.68.16.129",
+      "45.68.17.13"
+    ],
+    "ida_ips": [
+      "10.100.154.1",
+      "10.253.197.25",
+      "10.253.198.77",
+      "10.253.198.78",
+      "100.80.96.1",
+      "138.204.228.162",
+      "138.204.228.164",
+      "138.204.230.242",
+      "172.17.0.1",
+      "172.21.128.1",
+      "181.42.130.114",
+      "192.168.100.1",
+      "45.68.16.129"
+    ],
+    "vuelta_ips": [
+      "10.100.154.2",
+      "10.100.163.1",
+      "138.204.228.163",
+      "138.204.228.164",
+      "138.204.230.193",
+      "138.204.230.242",
+      "181.42.130.114",
+      "45.68.17.13"
+    ],
+    "shared_ips": [
+      "138.204.228.164"
+    ],
+    "nodes_detail": [
+      {
+        "ip": "181.42.130.114",
+        "role": "ORIGEN_BAF",
+        "hop_ida": [
+          0
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651",
+        "holder": "ENTEL CHILE S.A. (BAF Origen)",
+        "prefix": "181.42.128.0/21",
+        "methods": [
+          "Origen BAF (Entel AS27651)"
+        ]
+      },
+      {
+        "ip": "172.17.0.1",
+        "role": "IDA",
+        "hop_ida": [
+          1
+        ],
+        "hop_vuelta": [],
+        "asn": "Docker-Bridge",
+        "holder": "Docker Desktop NAT Gateway (Sonda 1018519)",
+        "prefix": "172.17.0.0/16",
+        "methods": [
+          "ripe-ida-icmp",
+          "ripe-ida-tcp",
+          "ripe-ida-udp"
+        ]
+      },
+      {
+        "ip": "172.21.128.1",
+        "role": "IDA",
+        "hop_ida": [
+          1
+        ],
+        "hop_vuelta": [],
+        "asn": "WSL2-HyperV",
+        "holder": "Gateway Virtual WSL2 (Windows Host)",
+        "prefix": "172.21.128.0/20",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp",
+          "scamper-tcp-ack",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-tcp-ack-sport",
+          "tracelb-tcp-sport",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "138.204.230.242",
+        "role": "DESTINO_SONDA",
+        "hop_ida": [
+          2,
+          3,
+          5,
+          10,
+          11
+        ],
+        "hop_vuelta": [],
+        "asn": "AS61506",
+        "holder": "INSACOM SpA (Sonda RIPE Atlas 6652 - Valparaíso)",
+        "prefix": "138.204.230.0/24",
+        "methods": [
+          "ripe-ida-icmp",
+          "ripe-ida-tcp",
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp-ack",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-tcp-ack-sport",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "192.168.100.1",
+        "role": "IDA",
+        "hop_ida": [
+          2
+        ],
+        "hop_vuelta": [],
+        "asn": "LAN-CPE",
+        "holder": "Router Fibra Óptica Hogar (ONT Entel)",
+        "prefix": "192.168.100.0/24",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp",
+          "scamper-tcp-ack",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-tcp-ack-sport",
+          "tracelb-tcp-sport",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "100.80.96.1",
+        "role": "IDA",
+        "hop_ida": [
+          3
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-CGNAT",
+        "holder": "ENTEL CHILE S.A. (CGNAT RFC6598)",
+        "prefix": "100.64.0.0/10",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.253.198.77",
+        "role": "IDA",
+        "hop_ida": [
+          4
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.253.198.78",
+        "role": "IDA",
+        "hop_ida": [
+          5
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.253.197.25",
+        "role": "IDA",
+        "hop_ida": [
+          6
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "45.68.16.129",
+        "role": "IDA",
+        "hop_ida": [
+          7
+        ],
+        "hop_vuelta": [],
+        "asn": "AS61522-IXP",
+        "holder": "PIT Chile SpA (Punto de Intercambio de Tráfico)",
+        "prefix": "45.68.16.0/23",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.100.154.1",
+        "role": "IDA",
+        "hop_ida": [
+          8
+        ],
+        "hop_vuelta": [],
+        "asn": "AS61506-Int",
+        "holder": "INSACOM SpA (Enlace Interno /30 Ida)",
+        "prefix": "10.100.154.0/30",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "tracelb-icmp-echo",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "138.204.228.164",
+        "role": "IDA_Y_VUELTA",
+        "hop_ida": [
+          8,
+          9
+        ],
+        "hop_vuelta": [
+          2
+        ],
+        "asn": "AS61506",
+        "holder": "INSACOM SpA (Router Distribución Valparaíso)",
+        "prefix": "138.204.228.0/24",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp",
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "138.204.228.162",
+        "role": "IDA",
+        "hop_ida": [
+          9,
+          10
+        ],
+        "hop_vuelta": [],
+        "asn": "AS61506",
+        "holder": "INSACOM SpA (Router Agregación Valparaíso)",
+        "prefix": "138.204.228.0/24",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.100.154.2",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          4
+        ],
+        "asn": "AS61506-Int",
+        "holder": "INSACOM SpA (Enlace Interno /30 Vuelta)",
+        "prefix": "10.100.154.0/30",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "10.100.163.1",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          3
+        ],
+        "asn": "AS61506-Int",
+        "holder": "INSACOM SpA (Core Interno Valparaíso)",
+        "prefix": "10.100.163.0/24",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "138.204.228.163",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          7
+        ],
+        "asn": "AS61506",
+        "holder": "INSACOM SpA (Router Agregación Valparaíso)",
+        "prefix": "138.204.228.0/24",
+        "methods": [
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "138.204.230.193",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          1,
+          7
+        ],
+        "asn": "AS61506",
+        "holder": "INSACOM SpA (Gateway Acceso Sonda 6652)",
+        "prefix": "138.204.230.0/24",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "45.68.17.13",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          5
+        ],
+        "asn": "AS61522-IXP",
+        "holder": "PIT Chile SpA (Punto de Intercambio de Tráfico)",
+        "prefix": "45.68.16.0/23",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      }
+    ]
+  },
+  "habana": {
+    "title": "UDP Path Discovery - La Habana, Cuba (200.14.48.134 - Sonda 12734) <-> BAF Entel Chile (181.42.130.114 - AS27651)",
+    "target_ip": "200.14.48.134",
+    "probe_id": 12734,
+    "uuid": "d91b1750-d441-11f1-bda1-005056ae3c32",
+    "viewer_url": "https://www.ndexbio.org/viewer/networks/d91b1750-d441-11f1-bda1-005056ae3c32",
+    "api_summary_url": "https://www.ndexbio.org/v2/network/d91b1750-d441-11f1-bda1-005056ae3c32/summary",
+    "visibility": "PUBLIC",
+    "node_count": 35,
+    "edge_count": 55,
+    "primary_msm_ida": 229623295,
+    "primary_msm_vuelta": 229638841,
+    "all_msm_ida": {
+      "UDP": 229622916,
+      "ICMP": 229623295,
+      "TCP": 229623665
+    },
+    "all_msm_vuelta": {
+      "UDP": "229638824 (Ref. activa: 228016823)",
+      "ICMP": "229638841 (Ref. activa: 228016959)",
+      "TCP": "229638856 (Ref. activa: 228017080)"
+    },
+    "total_unique_ips": [
+      "10.253.197.25",
+      "10.253.198.77",
+      "10.253.198.78",
+      "100.80.96.1",
+      "172.17.0.1",
+      "172.21.128.1",
+      "172.31.252.185",
+      "181.42.130.114",
+      "190.98.132.226",
+      "192.168.100.1",
+      "192.168.118.89",
+      "192.168.8.133",
+      "193.251.143.67",
+      "195.22.221.1",
+      "195.22.221.185",
+      "195.22.221.3",
+      "195.22.221.41",
+      "200.0.16.20",
+      "200.0.16.21",
+      "200.0.16.25",
+      "200.0.16.28",
+      "200.0.16.29",
+      "200.0.16.45",
+      "200.0.16.62",
+      "200.0.16.84",
+      "200.14.48.132",
+      "200.14.48.134",
+      "200.14.48.177",
+      "200.14.48.178",
+      "213.140.35.110",
+      "213.140.35.86",
+      "5.53.7.51",
+      "89.221.37.138",
+      "89.221.37.180",
+      "94.142.97.65"
+    ],
+    "ida_ips": [
+      "10.253.197.25",
+      "10.253.198.77",
+      "10.253.198.78",
+      "100.80.96.1",
+      "172.17.0.1",
+      "172.21.128.1",
+      "181.42.130.114",
+      "190.98.132.226",
+      "192.168.100.1",
+      "192.168.8.133",
+      "193.251.143.67",
+      "200.0.16.21",
+      "200.0.16.25",
+      "200.0.16.29",
+      "200.0.16.62",
+      "200.14.48.134",
+      "200.14.48.178",
+      "213.140.35.110",
+      "213.140.35.86",
+      "5.53.7.51",
+      "94.142.97.65"
+    ],
+    "vuelta_ips": [
+      "172.31.252.185",
+      "181.42.130.114",
+      "192.168.118.89",
+      "195.22.221.1",
+      "195.22.221.185",
+      "195.22.221.3",
+      "195.22.221.41",
+      "200.0.16.20",
+      "200.0.16.28",
+      "200.0.16.45",
+      "200.0.16.84",
+      "200.14.48.132",
+      "200.14.48.134",
+      "200.14.48.177",
+      "89.221.37.138",
+      "89.221.37.180"
+    ],
+    "shared_ips": [],
+    "nodes_detail": [
+      {
+        "ip": "181.42.130.114",
+        "role": "ORIGEN_BAF",
+        "hop_ida": [
+          0
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651",
+        "holder": "ENTEL CHILE S.A. (BAF Origen)",
+        "prefix": "181.42.128.0/21",
+        "methods": [
+          "Origen BAF (Entel AS27651)"
+        ]
+      },
+      {
+        "ip": "172.17.0.1",
+        "role": "IDA",
+        "hop_ida": [
+          1
+        ],
+        "hop_vuelta": [],
+        "asn": "Docker-Bridge",
+        "holder": "Docker Desktop NAT Gateway (Sonda 1018519)",
+        "prefix": "172.17.0.0/16",
+        "methods": [
+          "ripe-ida-icmp",
+          "ripe-ida-tcp",
+          "ripe-ida-udp"
+        ]
+      },
+      {
+        "ip": "172.21.128.1",
+        "role": "IDA",
+        "hop_ida": [
+          1
+        ],
+        "hop_vuelta": [],
+        "asn": "WSL2-HyperV",
+        "holder": "Gateway Virtual WSL2 (Windows Host)",
+        "prefix": "172.21.128.0/20",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp",
+          "scamper-tcp-ack",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-tcp-ack-sport",
+          "tracelb-tcp-sport",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "192.168.100.1",
+        "role": "IDA",
+        "hop_ida": [
+          2
+        ],
+        "hop_vuelta": [],
+        "asn": "LAN-CPE",
+        "holder": "Router Fibra Óptica Hogar (ONT Entel)",
+        "prefix": "192.168.100.0/24",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp",
+          "scamper-tcp-ack",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-tcp-ack-sport",
+          "tracelb-tcp-sport",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "100.80.96.1",
+        "role": "IDA",
+        "hop_ida": [
+          3
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-CGNAT",
+        "holder": "ENTEL CHILE S.A. (CGNAT RFC6598)",
+        "prefix": "100.64.0.0/10",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "200.14.48.134",
+        "role": "DESTINO_SONDA",
+        "hop_ida": [
+          3,
+          5,
+          19,
+          20
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27725",
+        "holder": "ETECSA (Sonda RIPE Atlas 12734 - La Habana)",
+        "prefix": "200.14.48.0/21",
+        "methods": [
+          "ripe-ida-tcp",
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp-ack",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-tcp-ack-sport"
+        ]
+      },
+      {
+        "ip": "10.253.198.77",
+        "role": "IDA",
+        "hop_ida": [
+          4
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.253.198.78",
+        "role": "IDA",
+        "hop_ida": [
+          5
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.253.197.25",
+        "role": "IDA",
+        "hop_ida": [
+          6
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "192.168.8.133",
+        "role": "IDA",
+        "hop_ida": [
+          7
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Borde",
+        "holder": "ENTEL CHILE S.A. (Router Borde Internacional)",
+        "prefix": "192.168.0.0/16",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "190.98.132.226",
+        "role": "IDA",
+        "hop_ida": [
+          8
+        ],
+        "hop_vuelta": [],
+        "asn": "AS262195",
+        "holder": "Transamerica Telecomunicacoes / Peering Regional",
+        "prefix": "190.98.132.0/24",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "5.53.7.51",
+        "role": "IDA",
+        "hop_ida": [
+          8,
+          9
+        ],
+        "hop_vuelta": [],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone)",
+        "prefix": "5.53.0.0/19",
+        "methods": [
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "213.140.35.110",
+        "role": "IDA",
+        "hop_ida": [
+          9,
+          10
+        ],
+        "hop_vuelta": [],
+        "asn": "AS12956",
+        "holder": "TELEFONICA GLOBAL SOLUTIONS (Telxius)",
+        "prefix": "213.140.32.0/19",
+        "methods": [
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "94.142.97.65",
+        "role": "IDA",
+        "hop_ida": [
+          9
+        ],
+        "hop_vuelta": [],
+        "asn": "AS12956",
+        "holder": "TELEFONICA GLOBAL SOLUTIONS (Telxius)",
+        "prefix": "94.142.96.0/19",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "193.251.143.67",
+        "role": "IDA",
+        "hop_ida": [
+          10,
+          11
+        ],
+        "hop_vuelta": [],
+        "asn": "AS5511",
+        "holder": "ORANGE S.A. (OpenTransit International)",
+        "prefix": "193.251.128.0/19",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "213.140.35.86",
+        "role": "IDA",
+        "hop_ida": [
+          10
+        ],
+        "hop_vuelta": [],
+        "asn": "AS12956",
+        "holder": "TELEFONICA GLOBAL SOLUTIONS (Telxius)",
+        "prefix": "213.140.32.0/19",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "200.0.16.62",
+        "role": "IDA",
+        "hop_ida": [
+          13,
+          14
+        ],
+        "hop_vuelta": [],
+        "asn": "AS11960",
+        "holder": "ETECSA (IXP Cuba - Borde Internacional)",
+        "prefix": "200.0.16.0/24",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "200.0.16.21",
+        "role": "IDA",
+        "hop_ida": [
+          14,
+          15
+        ],
+        "hop_vuelta": [],
+        "asn": "AS11960",
+        "holder": "ETECSA (IXP Cuba - Enlace /30 Ida)",
+        "prefix": "200.0.16.0/24",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "200.0.16.29",
+        "role": "IDA",
+        "hop_ida": [
+          15,
+          16
+        ],
+        "hop_vuelta": [],
+        "asn": "AS11960",
+        "holder": "ETECSA (IXP Cuba - Enlace /30 Ida)",
+        "prefix": "200.0.16.0/24",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "200.14.48.178",
+        "role": "IDA",
+        "hop_ida": [
+          18,
+          19
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27725",
+        "holder": "ETECSA (Router La Habana - Enlace /30 Ida)",
+        "prefix": "200.14.48.0/21",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris"
+        ]
+      },
+      {
+        "ip": "172.31.252.185",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          4
+        ],
+        "asn": "AS27725-Int",
+        "holder": "ETECSA (Red Interna Transporte Cuba)",
+        "prefix": "172.16.0.0/12",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "192.168.118.89",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          3
+        ],
+        "asn": "AS27725-Int",
+        "holder": "ETECSA (Red Interna Acceso La Habana)",
+        "prefix": "192.168.0.0/16",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "195.22.221.1",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          9
+        ],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Borde Chile)",
+        "prefix": "195.22.192.0/19",
+        "methods": [
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "195.22.221.185",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          8
+        ],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Sudamérica)",
+        "prefix": "195.22.192.0/19",
+        "methods": [
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "195.22.221.3",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          10
+        ],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Borde Chile)",
+        "prefix": "195.22.192.0/19",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp"
+        ]
+      },
+      {
+        "ip": "195.22.221.41",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          9
+        ],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Sudamérica)",
+        "prefix": "195.22.192.0/19",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp"
+        ]
+      },
+      {
+        "ip": "200.0.16.20",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          6,
+          7
+        ],
+        "asn": "AS11960",
+        "holder": "ETECSA (IXP Cuba - Enlace /30 Vuelta)",
+        "prefix": "200.0.16.0/24",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "200.0.16.25",
+        "role": "IDA",
+        "hop_ida": [],
+        "hop_vuelta": [],
+        "asn": "AS11960",
+        "holder": "ETECSA (IXP Cuba - Rama ECMP descubierta por tracelb)",
+        "prefix": "200.0.16.0/24",
+        "methods": [
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "200.0.16.28",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          5
+        ],
+        "asn": "AS11960",
+        "holder": "ETECSA (IXP Cuba - Enlace /30 Vuelta)",
+        "prefix": "200.0.16.0/24",
+        "methods": [
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "200.0.16.45",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          6
+        ],
+        "asn": "AS11960",
+        "holder": "ETECSA (IXP Cuba - Distribución Retorno)",
+        "prefix": "200.0.16.0/24",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp"
+        ]
+      },
+      {
+        "ip": "200.0.16.84",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          5
+        ],
+        "asn": "AS11960",
+        "holder": "ETECSA (IXP Cuba - Agregación Retorno)",
+        "prefix": "200.0.16.0/24",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp"
+        ]
+      },
+      {
+        "ip": "200.14.48.132",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          1
+        ],
+        "asn": "AS27725",
+        "holder": "ETECSA (Gateway Local Sonda 12734)",
+        "prefix": "200.14.48.0/21",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "200.14.48.177",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          2
+        ],
+        "asn": "AS27725",
+        "holder": "ETECSA (Router La Habana - Enlace /30 Vuelta)",
+        "prefix": "200.14.48.0/21",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "89.221.37.138",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          8
+        ],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Retorno)",
+        "prefix": "89.221.32.0/20",
+        "methods": [
+          "ripe-vuelta-icmp"
+        ]
+      },
+      {
+        "ip": "89.221.37.180",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          7,
+          8
+        ],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Retorno)",
+        "prefix": "89.221.32.0/20",
+        "methods": [
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      }
+    ]
+  },
+  "rusia": {
+    "title": "UDP Path Discovery - Rusia (37.79.226.46 - Sonda 3959) <-> BAF Entel Chile (181.42.130.114 - AS27651)",
+    "target_ip": "37.79.226.46",
+    "probe_id": 3959,
+    "uuid": "da0ec623-d441-11f1-bda1-005056ae3c32",
+    "viewer_url": "https://www.ndexbio.org/viewer/networks/da0ec623-d441-11f1-bda1-005056ae3c32",
+    "api_summary_url": "https://www.ndexbio.org/v2/network/da0ec623-d441-11f1-bda1-005056ae3c32/summary",
+    "visibility": "PUBLIC",
+    "node_count": 27,
+    "edge_count": 37,
+    "primary_msm_ida": 229624261,
+    "primary_msm_vuelta": 229638887,
+    "all_msm_ida": {
+      "UDP": 229623802,
+      "ICMP": 229624261,
+      "TCP": 229624325
+    },
+    "all_msm_vuelta": {
+      "UDP": 229638870,
+      "ICMP": 229638887,
+      "TCP": 229638899
+    },
+    "total_unique_ips": [
+      "10.253.197.25",
+      "10.253.198.77",
+      "10.253.198.78",
+      "100.80.96.1",
+      "172.17.0.1",
+      "172.21.128.1",
+      "172.29.39.179",
+      "172.29.8.149",
+      "172.29.8.151",
+      "181.42.130.114",
+      "192.168.100.1",
+      "192.168.30.1",
+      "192.168.8.133",
+      "192.168.9.138",
+      "195.22.211.209",
+      "195.22.211.61",
+      "195.22.214.161",
+      "195.22.221.2",
+      "2.63.212.245",
+      "2.63.212.246",
+      "200.189.207.14",
+      "200.189.207.6",
+      "212.133.1.53",
+      "37.79.226.33",
+      "37.79.226.46",
+      "8.243.188.86",
+      "8.243.188.94"
+    ],
+    "ida_ips": [
+      "10.253.197.25",
+      "10.253.198.77",
+      "10.253.198.78",
+      "100.80.96.1",
+      "172.17.0.1",
+      "172.21.128.1",
+      "181.42.130.114",
+      "192.168.100.1",
+      "192.168.8.133",
+      "192.168.9.138",
+      "195.22.211.209",
+      "195.22.211.61",
+      "195.22.214.161",
+      "195.22.221.2",
+      "2.63.212.246",
+      "37.79.226.46"
+    ],
+    "vuelta_ips": [
+      "172.29.39.179",
+      "172.29.8.149",
+      "172.29.8.151",
+      "181.42.130.114",
+      "192.168.30.1",
+      "2.63.212.245",
+      "200.189.207.14",
+      "200.189.207.6",
+      "212.133.1.53",
+      "37.79.226.33",
+      "37.79.226.46",
+      "8.243.188.86",
+      "8.243.188.94"
+    ],
+    "shared_ips": [],
+    "nodes_detail": [
+      {
+        "ip": "181.42.130.114",
+        "role": "ORIGEN_BAF",
+        "hop_ida": [
+          0
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651",
+        "holder": "ENTEL CHILE S.A. (BAF Origen)",
+        "prefix": "181.42.128.0/21",
+        "methods": [
+          "Origen BAF (Entel AS27651)"
+        ]
+      },
+      {
+        "ip": "172.17.0.1",
+        "role": "IDA",
+        "hop_ida": [
+          1
+        ],
+        "hop_vuelta": [],
+        "asn": "Docker-Bridge",
+        "holder": "Docker Desktop NAT Gateway (Sonda 1018519)",
+        "prefix": "172.17.0.0/16",
+        "methods": [
+          "ripe-ida-icmp",
+          "ripe-ida-tcp",
+          "ripe-ida-udp"
+        ]
+      },
+      {
+        "ip": "172.21.128.1",
+        "role": "IDA",
+        "hop_ida": [
+          1
+        ],
+        "hop_vuelta": [],
+        "asn": "WSL2-HyperV",
+        "holder": "Gateway Virtual WSL2 (Windows Host)",
+        "prefix": "172.21.128.0/20",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp",
+          "scamper-tcp-ack",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-tcp-ack-sport",
+          "tracelb-tcp-sport",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "192.168.100.1",
+        "role": "IDA",
+        "hop_ida": [
+          2
+        ],
+        "hop_vuelta": [],
+        "asn": "LAN-CPE",
+        "holder": "Router Fibra Óptica Hogar (ONT Entel)",
+        "prefix": "192.168.100.0/24",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp",
+          "scamper-tcp-ack",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-tcp-ack-sport",
+          "tracelb-tcp-sport",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "37.79.226.46",
+        "role": "DESTINO_SONDA",
+        "hop_ida": [
+          2,
+          3,
+          5,
+          7,
+          15
+        ],
+        "hop_vuelta": [],
+        "asn": "AS12389",
+        "holder": "PJSC ROSTELECOM (Sonda RIPE Atlas 3959 - Rusia)",
+        "prefix": "37.79.224.0/20",
+        "methods": [
+          "ripe-ida-icmp",
+          "ripe-ida-tcp",
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-tcp",
+          "scamper-tcp-ack",
+          "tracelb-icmp-echo",
+          "tracelb-tcp-ack-sport"
+        ]
+      },
+      {
+        "ip": "100.80.96.1",
+        "role": "IDA",
+        "hop_ida": [
+          3
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-CGNAT",
+        "holder": "ENTEL CHILE S.A. (CGNAT RFC6598)",
+        "prefix": "100.64.0.0/10",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.253.198.77",
+        "role": "IDA",
+        "hop_ida": [
+          4
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.253.198.78",
+        "role": "IDA",
+        "hop_ida": [
+          5
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "10.253.197.25",
+        "role": "IDA",
+        "hop_ida": [
+          6
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Core",
+        "holder": "ENTEL CHILE S.A. (Backbone MPLS Core)",
+        "prefix": "10.0.0.0/8",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "192.168.8.133",
+        "role": "IDA",
+        "hop_ida": [
+          7
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Borde",
+        "holder": "ENTEL CHILE S.A. (Router Borde Internacional)",
+        "prefix": "192.168.0.0/16",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "192.168.9.138",
+        "role": "IDA",
+        "hop_ida": [
+          8
+        ],
+        "hop_vuelta": [],
+        "asn": "AS27651-Borde",
+        "holder": "ENTEL CHILE S.A. (Router Borde Internacional)",
+        "prefix": "192.168.0.0/16",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "tracelb-icmp-echo"
+        ]
+      },
+      {
+        "ip": "195.22.221.2",
+        "role": "IDA",
+        "hop_ida": [
+          8,
+          9
+        ],
+        "hop_vuelta": [],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Ingreso desde Entel)",
+        "prefix": "195.22.192.0/19",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "195.22.211.209",
+        "role": "IDA",
+        "hop_ida": [
+          9,
+          10
+        ],
+        "hop_vuelta": [],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Europa/Milán)",
+        "prefix": "195.22.192.0/19",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "195.22.214.161",
+        "role": "IDA",
+        "hop_ida": [
+          11
+        ],
+        "hop_vuelta": [],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Seabone Hacia Rusia)",
+        "prefix": "195.22.192.0/19",
+        "methods": [
+          "scamper-udp",
+          "scamper-udp-paris",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "2.63.212.246",
+        "role": "IDA",
+        "hop_ida": [
+          14
+        ],
+        "hop_vuelta": [],
+        "asn": "AS12389",
+        "holder": "PJSC ROSTELECOM (Enlace /30 Ida)",
+        "prefix": "2.60.0.0/14",
+        "methods": [
+          "scamper-icmp",
+          "scamper-icmp-paris",
+          "scamper-udp",
+          "tracelb-icmp-echo",
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "172.29.39.179",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          5
+        ],
+        "asn": "AS12389-Int",
+        "holder": "PJSC ROSTELECOM (Core MPLS Salida Internacional)",
+        "prefix": "172.16.0.0/12",
+        "methods": [
+          "ripe-vuelta-icmp"
+        ]
+      },
+      {
+        "ip": "172.29.8.149",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          4
+        ],
+        "asn": "AS12389-Int",
+        "holder": "PJSC ROSTELECOM (Core MPLS Interno)",
+        "prefix": "172.16.0.0/12",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "172.29.8.151",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          4
+        ],
+        "asn": "AS12389-Int",
+        "holder": "PJSC ROSTELECOM (Core MPLS Interno TCP)",
+        "prefix": "172.16.0.0/12",
+        "methods": [
+          "ripe-vuelta-tcp"
+        ]
+      },
+      {
+        "ip": "192.168.30.1",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          1
+        ],
+        "asn": "LAN-Sonda3959",
+        "holder": "Gateway Local Sonda 3959 (Rusia)",
+        "prefix": "192.168.30.0/24",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "195.22.211.61",
+        "role": "IDA",
+        "hop_ida": [],
+        "hop_vuelta": [],
+        "asn": "AS6762",
+        "holder": "TELECOM ITALIA SPARKLE S.p.A. (Rama ECMP descubierta por tracelb)",
+        "prefix": "195.22.192.0/19",
+        "methods": [
+          "tracelb-udp-dport",
+          "tracelb-udp-sport"
+        ]
+      },
+      {
+        "ip": "2.63.212.245",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          3
+        ],
+        "asn": "AS12389",
+        "holder": "PJSC ROSTELECOM (Enlace /30 Vuelta)",
+        "prefix": "2.60.0.0/14",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "200.189.207.14",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          7
+        ],
+        "asn": "AS3549",
+        "holder": "LEVEL 3 / GLOBAL CROSSING LATAM (Tránsito Sudamérica)",
+        "prefix": "200.189.192.0/18",
+        "methods": [
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "200.189.207.6",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          7
+        ],
+        "asn": "AS3549",
+        "holder": "LEVEL 3 / GLOBAL CROSSING LATAM (Tránsito Sudamérica)",
+        "prefix": "200.189.192.0/18",
+        "methods": [
+          "ripe-vuelta-icmp"
+        ]
+      },
+      {
+        "ip": "212.133.1.53",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          6
+        ],
+        "asn": "AS3356",
+        "holder": "LEVEL 3 / LUMEN TECHNOLOGIES (Ingreso Europa Retorno)",
+        "prefix": "212.133.0.0/17",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "37.79.226.33",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          2
+        ],
+        "asn": "AS12389",
+        "holder": "PJSC ROSTELECOM (Gateway Acceso Sonda 3959)",
+        "prefix": "37.79.224.0/20",
+        "methods": [
+          "ripe-vuelta-icmp",
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      },
+      {
+        "ip": "8.243.188.86",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          8
+        ],
+        "asn": "AS3356",
+        "holder": "LEVEL 3 / LUMEN TECHNOLOGIES (Entrega hacia Entel Chile)",
+        "prefix": "8.243.176.0/20",
+        "methods": [
+          "ripe-vuelta-icmp"
+        ]
+      },
+      {
+        "ip": "8.243.188.94",
+        "role": "VUELTA",
+        "hop_ida": [],
+        "hop_vuelta": [
+          8
+        ],
+        "asn": "AS3356",
+        "holder": "LEVEL 3 / LUMEN TECHNOLOGIES (Entrega hacia Entel Chile)",
+        "prefix": "8.243.176.0/20",
+        "methods": [
+          "ripe-vuelta-tcp",
+          "ripe-vuelta-udp"
+        ]
+      }
+    ]
+  }
+}

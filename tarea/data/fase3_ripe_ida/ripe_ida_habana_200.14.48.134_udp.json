@@ -1,0 +1,173 @@
+{
+  "measurement_id": 229622916,
+  "timestamp": "2026-10-30T05:09:05.708779",
+  "source_probe": 1018519,
+  "target_slug": "habana",
+  "target_ip": "200.14.48.134",
+  "target_probe_id": 12734,
+  "protocol": "UDP",
+  "port": 33435,
+  "request_payload": {
+    "definitions": [
+      {
+        "target": "200.14.48.134",
+        "af": 4,
+        "type": "traceroute",
+        "description": "UDP Tarea 1 Ida UDP to habana (200.14.48.134)",
+        "protocol": "UDP",
+        "resolve_on_probe": true,
+        "skip_dns_check": false,
+        "packets": 3,
+        "size": 48,
+        "first_hop": 1,
+        "max_hops": 32,
+        "paris": 16,
+        "response_timeout": 4000,
+        "dont_fragment": false,
+        "is_oneoff": true,
+        "port": 33435
+      }
+    ],
+    "probes": [
+      {
+        "value": "1018519",
+        "type": "probes",
+        "requested": 1
+      }
+    ],
+    "is_oneoff": true
+  },
+  "results": [
+    {
+      "fw": 5130,
+      "mver": "2.6.4",
+      "lts": 28,
+      "endtime": 1793347735,
+      "dst_name": "200.14.48.134",
+      "dst_addr": "200.14.48.134",
+      "src_addr": "172.17.0.2",
+      "proto": "UDP",
+      "af": 4,
+      "size": 48,
+      "paris_id": 1,
+      "result": [
+        {
+          "hop": 1,
+          "result": [
+            {
+              "from": "172.17.0.1",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 0.494
+            },
+            {
+              "from": "172.17.0.1",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 0.21
+            },
+            {
+              "from": "172.17.0.1",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 0.19
+            }
+          ]
+        },
+        {
+          "hop": 2,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 3,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 4,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 5,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 6,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 255,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        }
+      ],
+      "destination_ip_responded": false,
+      "msm_id": 229622916,
+      "prb_id": 1018519,
+      "timestamp": 1793347665,
+      "msm_name": "Traceroute",
+      "from": "181.42.130.114",
+      "type": "traceroute",
+      "group_id": 229622916,
+      "stored_timestamp": 1793347735
+    }
+  ]
+}

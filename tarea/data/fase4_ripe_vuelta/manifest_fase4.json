@@ -1,0 +1,53 @@
+{
+  "valparaiso": {
+    "udp": {
+      "measurement_id": 229638773,
+      "json": "ripe_vuelta_valparaiso_138.204.230.242_udp.json",
+      "has_results": true
+    },
+    "icmp": {
+      "measurement_id": 229638791,
+      "json": "ripe_vuelta_valparaiso_138.204.230.242_icmp.json",
+      "has_results": true
+    },
+    "tcp": {
+      "measurement_id": 229638809,
+      "json": "ripe_vuelta_valparaiso_138.204.230.242_tcp.json",
+      "has_results": true
+    }
+  },
+  "habana": {
+    "udp": {
+      "measurement_id": 229638824,
+      "json": "ripe_vuelta_habana_200.14.48.134_udp.json",
+      "has_results": false
+    },
+    "icmp": {
+      "measurement_id": 229638841,
+      "json": "ripe_vuelta_habana_200.14.48.134_icmp.json",
+      "has_results": false
+    },
+    "tcp": {
+      "measurement_id": 229638856,
+      "json": "ripe_vuelta_habana_200.14.48.134_tcp.json",
+      "has_results": false
+    }
+  },
+  "rusia": {
+    "udp": {
+      "measurement_id": 229638870,
+      "json": "ripe_vuelta_rusia_37.79.226.46_udp.json",
+      "has_results": true
+    },
+    "icmp": {
+      "measurement_id": 229638887,
+      "json": "ripe_vuelta_rusia_37.79.226.46_icmp.json",
+      "has_results": true
+    },
+    "tcp": {
+      "measurement_id": 229638899,
+      "json": "ripe_vuelta_rusia_37.79.226.46_tcp.json",
+      "has_results": true
+    }
+  }
+}

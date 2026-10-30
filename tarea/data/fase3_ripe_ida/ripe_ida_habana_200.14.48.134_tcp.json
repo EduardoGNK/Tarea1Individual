@@ -1,0 +1,121 @@
+{
+  "measurement_id": 229623665,
+  "timestamp": "2026-10-30T05:12:05.461131",
+  "source_probe": 1018519,
+  "target_slug": "habana",
+  "target_ip": "200.14.48.134",
+  "target_probe_id": 12734,
+  "protocol": "TCP",
+  "port": 33435,
+  "request_payload": {
+    "definitions": [
+      {
+        "target": "200.14.48.134",
+        "af": 4,
+        "type": "traceroute",
+        "description": "UDP Tarea 1 Ida TCP to habana (200.14.48.134)",
+        "protocol": "TCP",
+        "resolve_on_probe": true,
+        "skip_dns_check": false,
+        "packets": 3,
+        "size": 48,
+        "first_hop": 1,
+        "max_hops": 32,
+        "paris": 16,
+        "response_timeout": 4000,
+        "dont_fragment": false,
+        "is_oneoff": true,
+        "port": 33435
+      }
+    ],
+    "probes": [
+      {
+        "value": "1018519",
+        "type": "probes",
+        "requested": 1
+      }
+    ],
+    "is_oneoff": true
+  },
+  "results": [
+    {
+      "fw": 5130,
+      "mver": "2.6.4",
+      "lts": 37,
+      "endtime": 1793347921,
+      "dst_name": "200.14.48.134",
+      "dst_addr": "200.14.48.134",
+      "src_addr": "172.17.0.2",
+      "proto": "TCP",
+      "af": 4,
+      "size": 48,
+      "paris_id": 1,
+      "result": [
+        {
+          "hop": 1,
+          "result": [
+            {
+              "from": "172.17.0.1",
+              "ttl": 64,
+              "size": 88,
+              "rtt": 1.289
+            },
+            {
+              "from": "172.17.0.1",
+              "ttl": 64,
+              "size": 88,
+              "rtt": 0.246
+            },
+            {
+              "from": "172.17.0.1",
+              "ttl": 64,
+              "size": 88,
+              "rtt": 0.272
+            }
+          ]
+        },
+        {
+          "hop": 2,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 3,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "from": "200.14.48.134",
+              "ttl": 63,
+              "size": 0,
+              "flags": "RA",
+              "rtt": 2049.029
+            }
+          ]
+        }
+      ],
+      "destination_ip_responded": true,
+      "msm_id": 229623665,
+      "prb_id": 1018519,
+      "timestamp": 1793347899,
+      "msm_name": "Traceroute",
+      "from": "181.42.130.114",
+      "type": "traceroute",
+      "group_id": 229623665,
+      "stored_timestamp": 1793347921
+    }
+  ]
+}

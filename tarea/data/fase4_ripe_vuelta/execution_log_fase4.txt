@@ -1,0 +1,30 @@
+================================================================
+[2026-10-30T05:42:37.197952] FASE 4 - RIPE ATLAS TRACEROUTE VUELTA (3 SONDAS -> 181.42.130.114 x 3 PROTOCOLOS)
+[2026-10-30T05:42:37.198845] Creando medición VUELTA: UDP desde valparaiso (probe 6652) -> 181.42.130.114...
+[2026-10-30T05:42:38.483227] Medición VUELTA creada: ID = 229638773 (valparaiso UDP)
+[2026-10-30T05:42:40.489909] Creando medición VUELTA: ICMP desde valparaiso (probe 6652) -> 181.42.130.114...
+[2026-10-30T05:42:41.329372] Medición VUELTA creada: ID = 229638791 (valparaiso ICMP)
+[2026-10-30T05:42:43.332874] Creando medición VUELTA: TCP desde valparaiso (probe 6652) -> 181.42.130.114...
+[2026-10-30T05:42:44.148606] Medición VUELTA creada: ID = 229638809 (valparaiso TCP)
+[2026-10-30T05:42:46.153727] Creando medición VUELTA: UDP desde habana (probe 12734) -> 181.42.130.114...
+[2026-10-30T05:42:46.919473] Medición VUELTA creada: ID = 229638824 (habana UDP)
+[2026-10-30T05:42:48.925115] Creando medición VUELTA: ICMP desde habana (probe 12734) -> 181.42.130.114...
+[2026-10-30T05:42:49.908237] Medición VUELTA creada: ID = 229638841 (habana ICMP)
+[2026-10-30T05:42:51.911699] Creando medición VUELTA: TCP desde habana (probe 12734) -> 181.42.130.114...
+[2026-10-30T05:42:52.687369] Medición VUELTA creada: ID = 229638856 (habana TCP)
+[2026-10-30T05:42:54.690579] Creando medición VUELTA: UDP desde rusia (probe 3959) -> 181.42.130.114...
+[2026-10-30T05:42:56.055741] Medición VUELTA creada: ID = 229638870 (rusia UDP)
+[2026-10-30T05:42:58.060585] Creando medición VUELTA: ICMP desde rusia (probe 3959) -> 181.42.130.114...
+[2026-10-30T05:42:58.882931] Medición VUELTA creada: ID = 229638887 (rusia ICMP)
+[2026-10-30T05:43:00.887607] Creando medición VUELTA: TCP desde rusia (probe 3959) -> 181.42.130.114...
+[2026-10-30T05:43:01.814606] Medición VUELTA creada: ID = 229638899 (rusia TCP)
+[2026-10-30T05:44:01.420973] Recibido y guardado resultado de valparaiso UDP (msm_id=229638773) [1/9].
+[2026-10-30T05:44:02.292946] Recibido y guardado resultado de valparaiso ICMP (msm_id=229638791) [2/9].
+[2026-10-30T05:44:03.206502] Recibido y guardado resultado de valparaiso TCP (msm_id=229638809) [3/9].
+[2026-10-30T05:44:35.160662] Recibido y guardado resultado de rusia UDP (msm_id=229638870) [4/9].
+[2026-10-30T05:44:36.498989] Recibido y guardado resultado de rusia ICMP (msm_id=229638887) [5/9].
+[2026-10-30T05:44:37.350670] Recibido y guardado resultado de rusia TCP (msm_id=229638899) [6/9].
+[2026-10-30T05:49:13.140119] Aviso: medición 229638824 (habana UDP) aún sin resultados tras timeout.
+[2026-10-30T05:49:13.140929] Aviso: medición 229638841 (habana ICMP) aún sin resultados tras timeout.
+[2026-10-30T05:49:13.141858] Aviso: medición 229638856 (habana TCP) aún sin resultados tras timeout.
+[2026-10-30T05:49:13.557506] FASE 4 EJECUCIÓN COMPLETADA.

@@ -1,0 +1,264 @@
+{
+  "measurement_id": 229638791,
+  "timestamp": "2026-10-30T05:44:02.291918",
+  "source_probe": 6652,
+  "source_ip": "138.204.230.242",
+  "source_slug": "valparaiso",
+  "target_ip": "181.42.130.114",
+  "protocol": "ICMP",
+  "port": null,
+  "request_payload": {
+    "definitions": [
+      {
+        "target": "181.42.130.114",
+        "af": 4,
+        "type": "traceroute",
+        "description": "UDP Tarea 1 Vuelta ICMP from valparaiso (probe 6652) to 181.42.130.114",
+        "protocol": "ICMP",
+        "resolve_on_probe": true,
+        "skip_dns_check": false,
+        "packets": 3,
+        "size": 48,
+        "first_hop": 1,
+        "max_hops": 32,
+        "paris": 16,
+        "response_timeout": 4000,
+        "dont_fragment": false,
+        "is_oneoff": true
+      }
+    ],
+    "probes": [
+      {
+        "value": "6652",
+        "type": "probes",
+        "requested": 1
+      }
+    ],
+    "is_oneoff": true
+  },
+  "results": [
+    {
+      "fw": 5130,
+      "mver": "2.6.4",
+      "lts": 5,
+      "endtime": 1793349833,
+      "dst_name": "181.42.130.114",
+      "dst_addr": "181.42.130.114",
+      "src_addr": "138.204.230.242",
+      "proto": "ICMP",
+      "af": 4,
+      "size": 48,
+      "paris_id": 1,
+      "result": [
+        {
+          "hop": 1,
+          "result": [
+            {
+              "from": "138.204.230.193",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 0.191
+            },
+            {
+              "from": "138.204.230.193",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 0.206
+            },
+            {
+              "from": "138.204.230.193",
+              "ttl": 64,
+              "size": 76,
+              "rtt": 0.24
+            }
+          ]
+        },
+        {
+          "hop": 2,
+          "result": [
+            {
+              "from": "138.204.228.164",
+              "ttl": 63,
+              "size": 76,
+              "rtt": 0.222
+            },
+            {
+              "from": "138.204.228.164",
+              "ttl": 63,
+              "size": 76,
+              "rtt": 0.223
+            },
+            {
+              "from": "138.204.228.164",
+              "ttl": 63,
+              "size": 76,
+              "rtt": 0.171
+            }
+          ]
+        },
+        {
+          "hop": 3,
+          "result": [
+            {
+              "from": "10.100.163.1",
+              "ttl": 253,
+              "size": 28,
+              "rtt": 0.3
+            },
+            {
+              "from": "10.100.163.1",
+              "ttl": 253,
+              "size": 28,
+              "rtt": 0.306
+            },
+            {
+              "from": "10.100.163.1",
+              "ttl": 253,
+              "size": 28,
+              "rtt": 0.348
+            }
+          ]
+        },
+        {
+          "hop": 4,
+          "result": [
+            {
+              "from": "10.100.154.2",
+              "ttl": 252,
+              "size": 28,
+              "rtt": 3.324
+            },
+            {
+              "from": "10.100.154.2",
+              "ttl": 252,
+              "size": 28,
+              "rtt": 3.164
+            },
+            {
+              "from": "10.100.154.2",
+              "ttl": 252,
+              "size": 28,
+              "rtt": 3.243
+            }
+          ]
+        },
+        {
+          "hop": 5,
+          "result": [
+            {
+              "from": "45.68.17.13",
+              "ttl": 251,
+              "size": 28,
+              "rtt": 3.741
+            },
+            {
+              "from": "45.68.17.13",
+              "ttl": 251,
+              "size": 28,
+              "rtt": 3.675
+            },
+            {
+              "from": "45.68.17.13",
+              "ttl": 251,
+              "size": 28,
+              "rtt": 3.666
+            }
+          ]
+        },
+        {
+          "hop": 6,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 7,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 8,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 9,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 10,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        },
+        {
+          "hop": 255,
+          "result": [
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            },
+            {
+              "x": "*"
+            }
+          ]
+        }
+      ],
+      "destination_ip_responded": false,
+      "msm_id": 229638791,
+      "prb_id": 6652,
+      "timestamp": 1793349761,
+      "msm_name": "Traceroute",
+      "from": "138.204.230.242",
+      "type": "traceroute",
+      "group_id": 229638791,
+      "stored_timestamp": 1793349837
+    }
+  ]
+}
